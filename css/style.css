@@ -8,7 +8,7 @@ header, main, footer {
 }
 header {
     background-color:teal;
-    padding: .5rem;
+    padding: .25rem;
     border-radius: 1rem;
 }
 header img {
@@ -30,16 +30,16 @@ h2 {
 footer {
     background-color:teal;
     border-radius: 1rem;
-    text-align: center;  
-    padding: 2rem; 
-    max-height: 50px;
-    color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 1rem;  
+    color: white;
+    line-height: 60%;
 }
 footer a {
-    color:lawngreen;
+    color:navy;
 }
 p {
-    color:yellow;
-    font-size: 1rem;
+    color:gold;
+    font-size: 14pt;
 }
 
