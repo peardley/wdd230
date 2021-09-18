@@ -14,8 +14,6 @@ header {
 header img {
     float: right;
     width: 225px;
-}
-img {
     box-shadow: 5px 5px 5px darkslategrey;
 }
 h1 {
