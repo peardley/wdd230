@@ -31,11 +31,15 @@ footer {
     background-color:teal;
     border-radius: 1rem;
     text-align: center;  
-    padding: 1rem; 
-    max-height: 100px;
+    padding: 2rem; 
+    max-height: 50px;
+    color: lightgoldenrodyellow;
+}
+footer a {
+    color:lawngreen;
 }
 p {
     color:yellow;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
