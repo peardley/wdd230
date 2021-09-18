@@ -8,21 +8,20 @@ header, main, footer {
 }
 header {
     background-color:teal;
-    padding: .25rem;
+    padding: 1rem;
     border-radius: 1rem;
+    text-align: center;
 }
 header img {
     float: right;
     width: 225px;
     box-shadow: 5px 5px 5px darkslategrey;
 }
-h1 {
+header h1 {
     font-size: 4.5rem;
     font-family: 'Dancing Script', cursive;
     color:lightgoldenrodyellow;
-    text-align: center;
-    padding:.5rem;
-}    
+}  
 h2 {
     font-size: 2rem;
     border-bottom: 2px solid black;
@@ -30,8 +29,8 @@ h2 {
 footer {
     background-color:teal;
     border-radius: 1rem;
-    text-align: center;
-    padding: 1rem;  
+    padding: 1rem;
+    text-align: center; 
     color: white;
     line-height: 60%;
 }
