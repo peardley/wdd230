@@ -31,7 +31,6 @@ header, main, footer {
     max-width: 760px;
     margin: 0 auto;
     padding: .75em;
-    max-width: 45rem;
 }
 
 header {
@@ -41,14 +40,6 @@ header {
 header img {
     width: 225px;
     height: auto;
-}
-
-header, 
-main,
-nav, 
-footer {
-    margin: 0 auto;
-    padding: .75em;
 }
 
 header,
@@ -74,5 +65,9 @@ p {
     color:gold;
     font-size: 14pt;
     margin-bottom: 4px;
+}
+
+footer a {
+    color: white;
 }
 
