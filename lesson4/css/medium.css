@@ -1,0 +1,47 @@
+@media only screen and (min-width: 35em) {
+    header {
+        padding: 5px 0;
+    }
+    header img {
+        width: 90%;
+        height: auto;
+    }
+
+    h1 { 
+        font-size: 2rem;
+        text-shadow: var(--blue) 1px 1px 1px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-shadow: var(--darkblue) 1px 1px 1px;
+    }
+
+    .motto {
+        font-size: 1rem;
+    }
+        
+    nav ul li a {
+        border-top: none;
+    }
+    nav a {
+        font-size: .9rem;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    
+    .navigation a {
+        text-align:center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+}
