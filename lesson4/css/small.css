@@ -54,7 +54,7 @@ header {
 picture {
     max-width: 85px;
     height: auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 header img{
