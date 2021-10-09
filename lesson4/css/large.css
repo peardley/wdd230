@@ -24,7 +24,6 @@
         color: var(--blue);
         margin-left: 15pt;
         font-size: large;
-        text-shadow: var(--darkblue) 1px 1px 1px;
     }
 
     h1 { 
