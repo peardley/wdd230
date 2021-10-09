@@ -17,6 +17,10 @@
         text-shadow: var(--darkblue) 1px 1px 1px;
     }
 
+    picture {
+        max-width: 110px;
+    }
+
     .motto {
         font-size: 1rem;
     }

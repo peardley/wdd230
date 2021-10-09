@@ -26,15 +26,14 @@ p, nav, ol {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     color: var(--darkblue);
     margin: 0;
-    padding: 0;
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     color: var(--blue);
     text-align: center;
@@ -45,14 +44,21 @@ h2 {
 header {
     background-color: var(--white);
     color: var(--darkblue);
-    padding: 5px;
+    padding: .75rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 0;
+}
+
+picture {
+    max-width: 85px;
+    height: auto;
+    padding: 0 auto;
 }
 
 header img{
-    width: 75%;
+    width: 100%;
     height: auto;
     margin: 5px 0 0 0;
 }
@@ -65,21 +71,22 @@ header img{
 .motto {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-style: italic;
+    font-weight: bold;
     letter-spacing: 1pt;
     color: var(--blue);
     margin-top: 0;
-    margin-left: 5px;
-    font-size: .9rem;
-    padding: 0 0 5px 0;
+    font-size: .65rem;
+    padding: 0 5px 5px 5px;
 }
 
 nav {
-    padding: 0 .75rem 0 .75rem;
+    padding-top: 0;
 }
 
 nav ul {
 	list-style-type: none;
 	margin-top: 0;
+    margin-bottom: 0;
 	padding: 0;
 	overflow: hidden;
     background-color: var(--yellow);
@@ -110,12 +117,12 @@ nav ul li a {
 }
 
 nav a:active {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.1);
     color: var(--white);
 }
 
 nav a:hover {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.2);
     color: var(--darkblue); 
     color: var(--white);      
 }
