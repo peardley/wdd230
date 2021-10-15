@@ -1,25 +1,36 @@
-const list = document.querySelector('list');
-const input = document.querySelector('favchap');
-const button = document.querySelector('button');
 
-button.addEventListener('click', function() => {mainnav.classList.toggle('responsive')}, false);
-
-button.onclick = function() {
-    let myFav = favchap.value;
-    favchap.value = '';
+let close = document.getElementsByClassName("close");
+let i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    let div = this.parentElement;
+    div.style.display = "none";
+  }
 }
 
-const listItem = document.createElement('li');
-const listText = document.createElement('span');
-const listBtn = document.createElement('button');
-
-listItem.appendChild(listText);
-listText.textContent = myFav;
-listItem.appendChild(listBtn);
-listBtn.textContent = 'Delete';
-list.appendChild(listItem);
-
-listBtn.onclick = function(e) {
-    list.removeChild(listItem);
-}
-input.focus();
+function newElement() {
+    let li = document.createElement("li");
+    let inputValue = document.getElementById("input").value;
+    let t = document.createTextNode(inputValue);
+    li.appendChild(t);
+    if (inputValue === '') {
+      alert("Please type a chapter");
+    } else {
+      document.getElementById("list").appendChild(li);
+    }
+    document.getElementById("input").value = "";
+  
+    let span = document.createElement("SPAN");
+    let txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    li.appendChild(span);
+  
+    for (let i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        let div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+  }
+  

@@ -157,6 +157,10 @@ nav a:hover {
     height: auto;
 }
 
+.active {
+    background-color: var(--blue);
+}
+
 .weathersummary {
     max-width: 767px;
     padding: 1rem;
@@ -231,6 +235,11 @@ nav a:hover {
     width: 100%;
     padding: 1rem;
 }
+
+.contactinfo img{
+    width: 30px;
+}
+
 footer {
     background-color: var(--darkblue);
     color: var(--white);
