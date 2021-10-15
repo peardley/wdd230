@@ -1,4 +1,3 @@
-
 let close = document.getElementsByClassName("close");
 let i;
 for (i = 0; i < close.length; i++) {
