@@ -1,0 +1,95 @@
+@media only screen and (min-width: 60em) {
+	
+    header,
+    nav,
+    footer {
+        max-width: 100%;
+    }
+
+    main {
+        max-width: 960px;
+
+    }
+    body {
+        font-size: 16pt;
+    }
+    aside {
+        display: block;
+        max-width: 960px;
+        background-color: var(--darkblue);
+        color: var(--white);
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+        font-size: 16pt;
+    }
+    
+    picture {
+        max-width: 150px;
+    }
+
+    header img {
+        padding: 5px;
+        margin: 10px 0 0 0;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        color: var(--blue);
+        margin-left: 15pt;
+        font-size: large;
+    }
+
+    h1 { 
+        font-size: 3rem;
+        margin: 0 0 0 5px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+        
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    nav a {
+        font-size: 1.4rem;
+    }
+    .heropic {
+        margin: 10px auto;
+        width: 960px;
+        height: auto;
+    }
+    .herodiv {
+        position: relative;
+        width: 960px;
+            
+    }
+
+    .weathersummary {
+        top: 50px;
+        left: 50px;
+        font-size: 16pt;
+    }
+
+    .articlebox {
+        max-width: 960px;
+    }
+
+    .locationinfo{
+        max-width: 100%;
+        align-content: right;
+    }
+
+    .googlemap {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+}
+  

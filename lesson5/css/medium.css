@@ -107,15 +107,16 @@
         background-color: var(--lightgrey);
         border: 1px solid var(--darkblue);
         margin-left:auto; 
-        margin-right:auto;
-    
+        margin-right:auto;    
     }
+    
     .forecast th {
         background-color: var(--blue);
         color: var(--darkblue);
         border: 1px solid var(--darkblue);
     
     }
+
     .forecast td {
         border-right: 1px solid var(--darkblue);
         border-left: 1px solid var(--darkblue);
@@ -139,7 +140,13 @@
     }
 
     .locationinfo {
-        grid-template-columns: 1fr 1fr;
-       
+        grid-template-columns: 1fr 1fr;   
+    }
+
+    .contactinfo {
+        text-align: left;
+        color: var(--darkblue);
+        width: 100%;
+        padding: 1rem;
     }
 }

@@ -2,9 +2,13 @@
 	
     header,
     nav,
-    main,
     footer {
+        max-width: 100%;
+    }
+
+    main {
         max-width: 960px;
+
     }
     body {
         font-size: 16pt;
@@ -78,6 +82,14 @@
     }
 
     .locationinfo{
-        max-width: 960px;
+        max-width: 100%;
+        align-content: right;
     }
+
+    .googlemap {
+        width: 40%;
+        margin: 0 auto;
+    }
+
 }
+  

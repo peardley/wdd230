@@ -1,0 +1,151 @@
+@media only screen and (min-width: 35em) {
+
+    header, main, footer, nav {
+        max-width: 767px;
+        padding: 0;
+    }
+
+    header {
+        padding: 5px 0;
+    }
+
+    header img {
+        width: 90%;
+        height: auto;
+    }
+
+    h1 { 
+        font-size: 2rem;
+        text-shadow: var(--blue) 2px 2px 2px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-shadow: var(--darkblue) 1px 1px 1px;
+        top-margin: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    picture {
+        max-width: 110px;
+    }
+
+    .motto {
+        font-size: 1rem;
+    }
+        
+    nav ul li a {
+        border-top: none;
+    }
+    nav a {
+        font-size: .9rem;
+    }
+
+    .navigation {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    
+    .navigation a {
+        text-align:center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+   
+    .herodiv {
+        position: relative;
+        max-width: 767px;
+    }
+    
+    .heropic {
+        margin: 10px auto;
+        width: 100%;
+        height: auto;
+    }
+    
+   
+    .weathersummary {
+        position:absolute;
+        top: 25px;
+        left: 25px;
+        padding: 1rem;
+        color: var (--white);
+        opacity: 0.8;
+        box-shadow: 0 0 30px #777;
+        font-size: 14pt;
+    }
+    
+    .weathersummary h3 {
+        padding: 0 auto;
+        border-bottom: 1px solid black;
+        margin: 0 auto;
+    
+    }
+
+    .forecast {
+        display: block;
+        max-width: 960px;
+        text-align:center;
+        margin: 0 0 30px 0;
+        align-items: center;
+    }
+
+    .forecast table {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        background-color: var(--lightgrey);
+        border: 1px solid var(--darkblue);
+        margin-left:auto; 
+        margin-right:auto;    
+    }
+    
+    .forecast th {
+        background-color: var(--blue);
+        color: var(--darkblue);
+        border: 1px solid var(--darkblue);
+    
+    }
+
+    .forecast td {
+        border-right: 1px solid var(--darkblue);
+        border-left: 1px solid var(--darkblue);
+    }
+    
+    .articlebox {
+        display: block;
+    }
+
+    .articlebox img {
+        width: 400px;
+        height: auto;
+        float: right;
+        padding: 1rem;
+        margin-top: 10px;
+        box-shadow: 0 0 30px var(--darkgrey);
+    }
+
+    .articlebox h3 {
+        margin-top: 0;
+    }
+
+    .locationinfo {
+        grid-template-columns: 1fr 1fr;   
+    }
+
+    .contactinfo {
+        text-align: left;
+        width: 100%;
+        padding: 1rem;
+    }
+}

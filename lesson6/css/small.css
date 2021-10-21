@@ -1,0 +1,258 @@
+:root {
+    --darkblue: #353348;
+    --blue: #56939F;
+    --yellow: #E0A100;
+    --white: #ffffff;
+    --lightgrey: #EEF1EF;
+    --darkgrey: #5E6572;
+  }
+
+body {
+    font-size: 14pt;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    height: 100%;
+    background-color: var(--white);
+    color: var(--darkblue);
+}
+
+aside {
+    display: block;
+    max-width: 767px;
+    background-color: var(--darkblue);
+    color: var(--white);
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+
+}
+
+aside p {
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 12pt;
+}
+
+header, main, footer, nav {
+    max-width: 767px;
+    margin: 0 auto;
+    padding: .75rem;
+}
+
+p, nav, ol {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: var(--darkblue);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: var(--blue);
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+header {
+    background-color: var(--white);
+    color: var(--darkblue);
+    padding: .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+picture {
+    max-width: 85px;
+    height: auto;
+    padding: 0;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+    margin: 5px 0 0 0;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.motto {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    color: var(--blue);
+    margin-top: 0;
+    font-size: .65rem;
+    padding: 0 5px 5px 5px;
+}
+
+nav {
+    padding-top: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-top: 0;
+    margin-bottom: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav ul li a {
+	display: block;
+	color: var(--white);
+    font-weight: bold;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+.responsive li {
+    display: block;
+}
+
+nav a:active {
+    background-color: rgba(0,0,0,0.1);
+    color: var(--white);
+}
+
+nav a:hover {
+    background-color: rgba(0,0,0,0.2);
+    color: var(--darkblue); 
+    color: var(--white);      
+}
+
+.herodiv {
+    max-width: 767px;
+       
+}
+
+.heropic {
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+
+.active {
+    background-color: var(--blue);
+}
+
+.weathersummary {
+    max-width: 767px;
+    padding: 1rem;
+    color: var (--white);
+    background-color: var(--yellow);
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+.weathersummary h3 {
+    padding: 0 auto;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+
+.weathertable {
+    margin: 0 auto;
+}
+
+.weathertable th {
+    text-align: right;
+    height: 15px;
+}
+
+.weathertable td {
+    text-align: left;
+    height: 15px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.forecast {
+    display: none;
+}
+
+.articlebox {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--lightgrey);
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 767px;
+}
+
+.articlebox img {
+    width: 100%;
+}
+
+.locationinfo {
+    display: grid;
+    max-width: 767px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: var(--lightgrey);
+    font-size: 1rem;
+    padding: 1rem;
+    line-height: .8rem;
+}
+
+.googlemap {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contactinfo {
+    width: 100%;
+    padding: 1rem;
+    color: var(--darkblue);
+}
+
+.contactinfo img{
+    width: 30px;
+}
+
+footer {
+    background-color: var(--darkblue);
+    color: var(--white);
+    text-align: center;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+footer p {
+    margin: 5px 0 10px 0;
+}
+
+.bottomfooter {
+    padding: 1rem;
+}
