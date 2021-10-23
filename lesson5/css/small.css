@@ -227,13 +227,19 @@ nav a:hover {
 }
 
 .googlemap {
-    width: 75%;
+    padding: 0;    
+}
+
+.googlemap img {
+    width: 250px;
     margin: 0 auto;
 }
+
 
 .contactinfo {
     width: 100%;
     padding: 1rem;
+    color: var(--darkblue);
 }
 
 .contactinfo img{

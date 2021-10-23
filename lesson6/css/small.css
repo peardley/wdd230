@@ -227,7 +227,12 @@ nav a:hover {
 }
 
 .googlemap {
-    width: 75%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.googlemap img {
+    max-width: 250px;
     margin: 0 auto;
 }
 

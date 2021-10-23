@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+    padding: 0;
+}
+header {
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 100%;
+}
+
+main {
+    max-width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+div{
+    background-color: cadetblue;
+}
+
+h2 {
+    font-size: 28px;
+    color: black;
+    padding: 1rem;
+}
+
+img {
+    background: #F1F1FA;
+    display: block;
+    margin: 10px auto;
+    max-width: 450px;
+    max-width: 400px;
+    border: 0;
+  }

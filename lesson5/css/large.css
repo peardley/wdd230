@@ -15,7 +15,7 @@
     }
     aside {
         display: block;
-        max-width: 960px;
+        max-width: 100%;
         background-color: var(--darkblue);
         color: var(--white);
         margin: 0 auto;
@@ -83,12 +83,10 @@
 
     .locationinfo{
         max-width: 100%;
-        align-content: right;
     }
 
     .googlemap {
-        width: 40%;
-        margin: 0 auto;
+        margin-left: 12rem;
     }
 
 }
