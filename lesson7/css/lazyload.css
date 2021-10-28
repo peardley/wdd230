@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: white;
     padding: 0;
 }
 header {
@@ -16,9 +16,11 @@ main {
     text-align: center;
     margin: 0 auto;
     padding: 0;
-    background-color: white;
 }
 
+h1 {
+    padding: 1rem;
+}
 
 picture img[data-src] {
     filter: blur(0.2em);
@@ -27,7 +29,7 @@ picture img[data-src] {
 picture img {
     filter: blur(0em);
     transition: filter 1s;
-  }
+}
 
 div {
     display: grid;
