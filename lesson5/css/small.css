@@ -24,11 +24,10 @@ aside {
     margin: 0 auto;
     padding: 5px;
     text-align: center;
-
 }
 
 aside p {
-    padding: 0 auto;
+    padding: 0;
     margin: 0 auto;
     font-size: 12pt;
 }
@@ -56,6 +55,12 @@ h2 {
     color: var(--blue);
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+      font-size: .75rem;
+      text-align: center;
   }
 
 
@@ -147,7 +152,6 @@ nav a:hover {
 
 .herodiv {
     max-width: 767px;
-       
 }
 
 .heropic {
@@ -163,18 +167,16 @@ nav a:hover {
 .weathersummary {
     max-width: 767px;
     padding: 1rem;
-    color: var (--white);
+    color: var(--white);
     background-color: var(--yellow);
-    font-size: 1rem;
+    font-size: 16px;
     margin-bottom: 20px;
-
 }
 
 .weathersummary h3 {
-    padding: 0 auto;
+    padding: 0;
     border-bottom: 1px solid black;
     text-align: center;
-
 }
 
 .weathertable {
@@ -213,9 +215,9 @@ nav a:hover {
 }
 
 figure {
-    padding: 0 auto;
+    padding: 0;
     margin: 0 auto;
-    background-color: var(--white);
+    background-color: var(--lightgrey);
     color: var(--darkblue);
     font-size: 10pt;
     text-align: center;
@@ -224,7 +226,13 @@ figure {
 
 figure img {
     width: 100%;
+    filter: blur(0em);
+    transition: filter 1s;
 }
+
+figure img[data-src] {
+    filter: blur(0.2em);
+  }
 
 figcaption {
     padding: 10px;
@@ -233,15 +241,14 @@ figcaption {
 .weathergallery {
     display: grid;
     grid-template-columns: 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 20px;
+    row-gap: 20px;
     padding: 0;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
-
-
+  
 .galleryphoto {
     width: 100%;
     height: auto;

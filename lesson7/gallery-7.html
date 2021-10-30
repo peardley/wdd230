@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="../lesson5/css/small.css"/>
     <link rel="stylesheet" href="../lesson5/css/medium.css"/>
     <link rel="stylesheet" href="../lesson5/css/large.css"/>
-    <script defer src="../lesson5/js/banner.js"></script>
     <script defer src="../lesson5/js/togglemenu.js"></script>
     <script defer src="js/lazyload.js"></script>
-    <script defer src="js/lastvisit.js"></script>
     <script defer src="js/currentdate.js"></script>
+    <script defer src="js/lastvisit.js"></script>
+    <script defer src="../lesson5/js/banner.js"></script>
     
 </head>
 <body>
@@ -47,6 +47,7 @@
     </nav>
     <main>
         <h2>Weather Gallery</h2>
+        <h3><span id="dayssincevisit"></span></h3> 
         <div class=weathergallery>
                 <figure>
                     <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather1.jpg" alt="clouds at sunset">
@@ -86,7 +87,7 @@
                     <figcaption>Winds picking up outside of Preston</figcaption>
                 </figure>
         </div>
-       <p><span id="lastvisit"></span></p>         
+       <p><span id="dayssincevisit"></span></p>         
     </main>
     <footer>
         <div class="locationinfo">

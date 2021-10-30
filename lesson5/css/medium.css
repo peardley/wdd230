@@ -22,7 +22,6 @@
     h2 {
         font-size: 1.5rem;
         text-shadow: var(--darkblue) 1px 1px 1px;
-        top-margin: 20px;
     }
 
     p {
@@ -40,6 +39,7 @@
     nav ul li a {
         border-top: none;
     }
+
     nav a {
         font-size: .9rem;
     }
@@ -72,21 +72,20 @@
         width: 100%;
         height: auto;
     }
-    
-   
+       
     .weathersummary {
         position:absolute;
         top: 25px;
         left: 25px;
         padding: 1rem;
-        color: var (--white);
+        color: var(--white);
         opacity: 0.8;
         box-shadow: 0 0 30px #777;
         font-size: 14pt;
     }
     
     .weathersummary h3 {
-        padding: 0 auto;
+        padding: 0;
         border-bottom: 1px solid black;
         margin: 0 auto;
     
@@ -138,6 +137,7 @@
     .article p {
         padding: 2rem;
     }
+
     .articlebox h3 {
         margin-top: 0;
     }
@@ -146,19 +146,17 @@
         max-width: 767px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-  }
+    }
 
     .locationinfo {
         max-width: 100%;
         grid-template-columns: 1fr 1fr; 
         margin-top: 20px;
-          
     }
 
     figure {
-        box-shadow: 0 0 30px var(--darkgrey);
+        box-shadow: 10px 5px 5px var(--darkgrey);
     }
-
     figure img {
         padding:0;
         width: 100%;

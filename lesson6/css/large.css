@@ -7,7 +7,7 @@
     }
 
     main {
-        max-width: 960px;
+        max-width: 100%;
 
     }
     body {
@@ -60,15 +60,16 @@
     nav a {
         font-size: 1.4rem;
     }
+
     .heropic {
         margin: 10px auto;
         width: 960px;
         height: auto;
     }
+
     .herodiv {
         position: relative;
-        width: 960px;
-            
+        width: 960px;            
     }
 
     .weathersummary {

@@ -7,13 +7,13 @@
     }
 
     main {
-        max-width: 100%;
-        justify-content: center;
-
+        max-width: 960px;
     }
+
     body {
         font-size: 16pt;
     }
+
     aside {
         display: block;
         max-width: 100%;
@@ -51,7 +51,7 @@
     }
         
     h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     p {
@@ -61,15 +61,17 @@
     nav a {
         font-size: 1.4rem;
     }
+
+    .herodiv {
+        position: relative;
+        width: 960px;    
+        padding: 0;        
+    }
+
     .heropic {
         margin: 10px auto;
         width: 100%;
         height: auto;
-    }
-    .herodiv {
-        position: relative;
-        width: 100%;
-            
     }
 
     .weathersummary {
@@ -88,7 +90,10 @@
         grid-template-columns: 1fr 1fr 1fr;
   }
     
-    
+  figure:hover {
+    box-shadow: 0 0 20px var(--yellow);
+}
+  
     locationinfo{
         max-width: 100%;
     }
