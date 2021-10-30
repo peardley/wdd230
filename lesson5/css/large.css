@@ -7,7 +7,8 @@
     }
 
     main {
-        max-width: 960px;
+        max-width: 100%;
+        justify-content: center;
 
     }
     body {
@@ -62,12 +63,12 @@
     }
     .heropic {
         margin: 10px auto;
-        width: 960px;
+        width: 100%;
         height: auto;
     }
     .herodiv {
         position: relative;
-        width: 960px;
+        width: 100%;
             
     }
 
@@ -81,7 +82,14 @@
         max-width: 960px;
     }
 
-    .locationinfo{
+    .weathergallery {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+    
+    
+    locationinfo{
         max-width: 100%;
     }
 

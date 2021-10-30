@@ -135,12 +135,33 @@
         box-shadow: 0 0 30px var(--darkgrey);
     }
 
+    .article p {
+        padding: 2rem;
+    }
     .articlebox h3 {
         margin-top: 0;
     }
 
+    .weathergallery {
+        max-width: 767px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+  }
+
     .locationinfo {
-        grid-template-columns: 1fr 1fr;   
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr; 
+        margin-top: 20px;
+          
+    }
+
+    figure {
+        box-shadow: 0 0 30px var(--darkgrey);
+    }
+
+    figure img {
+        padding:0;
+        width: 100%;
     }
 
     .googlemap {

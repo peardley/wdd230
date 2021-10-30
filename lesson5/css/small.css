@@ -48,7 +48,6 @@ h1 {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     color: var(--darkblue);
     margin: 0;
-    padding: 0;
 }
 
 h2 {
@@ -213,12 +212,48 @@ nav a:hover {
     width: 100%;
 }
 
+figure {
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: var(--white);
+    color: var(--darkblue);
+    font-size: 10pt;
+    text-align: center;
+    width: 100%;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+.weathergallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.galleryphoto {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
 .locationinfo {
     display: grid;
     max-width: 767px;
     margin: 0 auto;
     grid-template-columns: 1fr;
-    margin-top: 20px;
     margin-bottom: 0;
     background-color: var(--lightgrey);
     font-size: 1rem;
