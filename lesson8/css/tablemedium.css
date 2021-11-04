@@ -3,7 +3,7 @@
         width: 760px;
         height: auto;
         margin: 0 auto;
-        font-size: 16pt;
+        font-size: 18pt;
         padding: 1rem;
     }
 
@@ -14,5 +14,9 @@
 
     thead tr:first-child {
         font-size: 2.5rem;
+    }
+
+    tfoot {
+        font-size: 1.2rem;
     }
 }
