@@ -177,10 +177,19 @@
         padding: 1rem;
     }
 
+    .radio {
+        display: flex;
+        flex-direction: row;
+    }
+
     .thankyou {
         display: block;
     }
     .thankyou img {
         margin: 0 auto;
+    }
+
+    .thankyou img {
+        margin-left: 0 auto;
     }
 }

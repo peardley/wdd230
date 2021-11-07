@@ -44,7 +44,7 @@
     </nav>
     <main>
         <h2>Storm Center</h2>
-        <p class="instructions">To help us track weather in your area please fill out the form below.</p>
+        <p class="instructions">To help us track weather in your area please fill out the forms below.</p>
         <form action="thanks.html">
             <fieldset class="form">
                 <h3>Contact Information</h3>
@@ -56,7 +56,7 @@
                 <input type="tel" id="phonenumber" name="phonenumber" placeholder="999-999-9999" required>
                 </label><br>
                 <label for="zip">*Zip Code: <br>
-                <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label><br>
+                <input type="number" id="zip" name="zip"></label><br>
                 <p>*Required fields</p>
                 </fieldset>
             <fieldset class="form">
@@ -94,11 +94,11 @@
                     <option value="soda springs">Soda Springs</option>
                     <option value="fish haven">Fish Haven</option>
                 </select></label><br>
+                <p class="danger">Are you in Danger?</p><br>
                 <div class="radio">
-                    <label for=danger>Are you in Danger?</label><br>
-                    <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label><br>
-                    <label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label><br>
-                    <label for="no"><input type="radio" name="danger" id="no" value="no"> No</label>   
+                    <label for="yes"><input type="radio" name="danger" id="danger" value="yes"> Yes</label><br>
+                    <label for="maybe"><input type="radio" name="danger" id="danger" value="maybe"> Maybe</label><br>
+                    <label for="no"><input type="radio" name="danger" id="danger" value="no"> No</label>   
                     </div>
                 <label for="comments">Additional Comments:<br>
                 <textarea id="comments" name="comments"></textarea></label><br>

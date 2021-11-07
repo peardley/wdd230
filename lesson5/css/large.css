@@ -99,6 +99,9 @@
         margin: 0 auto;
     }
 
+    .danger {
+        font-size: 16pt;
+
     locationinfo{
         max-width: 100%;
     }
