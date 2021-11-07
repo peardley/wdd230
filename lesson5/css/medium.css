@@ -20,7 +20,7 @@
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         text-shadow: var(--darkblue) 1px 1px 1px;
     }
 
@@ -157,9 +157,14 @@
     figure {
         box-shadow: 10px 5px 5px var(--darkgrey);
     }
+
     figure img {
         padding:0;
         width: 100%;
+    }
+
+    main form {
+        width: 500px;
     }
 
     .googlemap {
@@ -170,5 +175,12 @@
         text-align: left;
         max-width: 100%;
         padding: 1rem;
+    }
+
+    .thankyou {
+        display: block;
+    }
+    .thankyou img {
+        margin: 0 auto;
     }
 }

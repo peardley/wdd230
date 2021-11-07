@@ -50,12 +50,12 @@ h1 {
 }
 
 h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     color: var(--blue);
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   h3 {
@@ -256,6 +256,112 @@ figcaption {
     margin: 0 auto;
 }
 
+.instructions {
+    text-align: center;
+    margin: 0 auto;
+    padding:1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label {
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+form .form {
+    margin-bottom: 1rem;
+    background-color: var(--darkblue);
+    margin-bottom: 2rem;
+    color: var(--white);
+    padding: 1rem;
+}
+
+fieldset h3 {
+    font-size: 1.5rem;
+    padding: 0 0 1rem 0;
+    margin: 0 auto;
+}
+
+#rating {
+    color: var(--white);
+}
+
+form input {
+    width: 100%;
+}
+
+form input:not(.radio) {
+    width: 95%;
+    clear: both;
+    margin-bottom: 1rem;
+    background-color: var(--lightgrey);
+    color: var(--darkblue);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#stormreg, #comments {
+    background-color: var(--lightgrey);
+}
+
+form p {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.radio label input {
+    width: 20px;
+}
+
+.radio {
+    padding-top: 1rem;
+}
+.radio label {
+    padding-right: .5rem;
+}
+
+.radio input {
+    margin-left: 1rem;
+}
+
+#stormreg {
+    width:95%;
+}
+
+form textarea {
+    resize: none;
+    width: 90%;
+    margin-bottom: 0.5rem;
+    width: 98%;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+#submit {
+    background-color: var(--yellow);
+    color: var(--darkblue);
+    font-weight: bold;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#submit:hover {
+    background-color: var(--blue);
+    color: var(--darkblue);
+  }
+
 .locationinfo {
     display: grid;
     max-width: 767px;
@@ -302,4 +408,8 @@ footer p {
 
 .bottomfooter {
     padding: 1rem;
+}
+
+.thankyou {
+    margin: 0 auto;
 }

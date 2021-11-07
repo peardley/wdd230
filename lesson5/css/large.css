@@ -88,12 +88,17 @@
         max-width: 1200px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-  }
+    }
     
   figure:hover {
     box-shadow: 0 0 20px var(--yellow);
-}
-  
+    }
+
+    main form {
+        width: 500px;
+        margin: 0 auto;
+    }
+
     locationinfo{
         max-width: 100%;
     }

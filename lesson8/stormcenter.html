@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+    <meta name="description" content="On this page, locals to the southeast area of Idaho
+    can submit information about storms they are experiencing. There is an area to put in the
+    reporters contact information along with fields to give detailed descriptions about the storm">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../lesson5/css/small.css"/>
+    <link rel="stylesheet" href="../lesson5/css/medium.css"/>
+    <link rel="stylesheet" href="../lesson5/css/large.css"/>
+    <script defer src="../lesson5/js/togglemenu.js"></script>
+    <script defer src="../lesson7/lazyload.html"></script>
+    <script defer src="../lesson7/js/currentdate.js"></script>
+    <script defer src="../lesson7/js/banner.js"></script>
+    <script defer src="js/stormcenter.js"></script>
+
+    
+</head>
+<body>
+    <aside>
+        <p>Saturday = Preston Pancake in the Park!</p>
+        <p>9:00 a.m. Saturday at the City Park</p>
+    </aside>
+    <header>
+        <picture>
+            <img src="images/weather-logo1.jpg" alt="image of a sun behind a cloud with an umbrella">
+        </picture>
+        <section class="heading">
+            <h1>Weather and More Site</h1>
+            <q class="motto">Enjoying all SE Idaho has to offer!</q>  
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="ham" href="#">&#9776; MENU</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="../lesson6/preston-6.html">PRESTON</a></li>
+            <li><a href="#">SODA SPRINGS</a></li>
+            <li><a href="#">FISH HAVEN</a></li>
+            <li class="active"><a href="#">STORM CENTER</a></li>
+            <li><a href="../lesson7/gallery-7.html">GALLERY</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+        <p class="instructions">To help us track weather in your area please fill out the form below.</p>
+        <form action="thanks.html">
+            <fieldset class="form">
+                <h3>Contact Information</h3>
+                <label for="fullname">*Full name:
+                <input type="text" name="name" id="fullname" minlength="5" pattern="[\sa-zA-Z]{5,}" required></label>
+                <label for="email">Email:<br>
+                <input type="email" id="email" name="email" placeholder="example@email.com"></label><br>
+                <label for="phonenumber">*Phone number:<br>
+                <input type="tel" id="phonenumber" name="phonenumber" placeholder="999-999-9999" required>
+                </label><br>
+                <label for="zip">*Zip Code: <br>
+                <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label><br>
+                <p>*Required fields</p>
+                </fieldset>
+            <fieldset class="form">
+                <h3>Storm Information</h3>
+                <label for="stormdate">Storm date:<br>
+                <input type="date" id="stormdate" name="stormdate"></label><br>
+                <label for="stormtype">Storm type:<br>
+                <input list="stormtypes" id="stormtype" name="stormtype">
+                    <datalist id="stormtypes">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado"></label><br>                
+                <label class="flexly" for="rating">Storm Severity:  <span id="ratingvalue">5</span> <br>
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" 
+                    list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">    
+                    <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                    </datalist></label><br>
+                <label for="region">Storm region<br>
+                <select id="stormreg" required>
+                    <option disabled label="Select Region">
+                    <option value="preston">Preston</option>
+                    <option value="soda springs">Soda Springs</option>
+                    <option value="fish haven">Fish Haven</option>
+                </select></label><br>
+                <div class="radio">
+                    <label for=danger>Are you in Danger?</label><br>
+                    <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label><br>
+                    <label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label><br>
+                    <label for="no"><input type="radio" name="danger" id="no" value="no"> No</label>   
+                    </div>
+                <label for="comments">Additional Comments:<br>
+                <textarea id="comments" name="comments"></textarea></label><br>
+            </fieldset>
+            <input type="submit" value="Submit Storm Report" id="submit">
+        </form>         
+    </main>
+    <footer>
+        <div class="locationinfo">
+            <div class="googlemap">
+            <a href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">
+                <img src="images/googlemap.jpg" alt="google map of south eastern idaho"></a>
+                </div>
+            <div class=contactinfo>
+                <p>Weather and More Site</p>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p>&#9742; 999.999.9999</p>
+                <p>&#128231;weatherandmore@gmail.com</p>
+                <br>
+                <a href="https://facebook.com"><img src="images/facebookicon.png" alt="facebook icon"></a>
+                <a href="https://twitter.com"><img src="images/twittericon.png" alt="twitter icon"></a>
+                <a href="https://pinterest.com"><img src="images/pinteresticon.png" alt="pinterest icon"></a>
+            </div>
+        </div>
+        <div class="bottomfooter">
+            &copy; Weather and More | Attributions | Patty Eardley
+            <p><span id="currentdate"></span></p>
+            <p><span id="weekday"></span></p>
+        </div>
+    </footer>   
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>
+        WebFont.load({google: {families: ['Montserrat', 'Inter']}});
+    </script>
+</body>
+</html>
