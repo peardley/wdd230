@@ -1,7 +1,7 @@
 :root {
     --darkblue: #353348;
     --blue: #406E77;
-    --yellow: #B88400;
+    --yellow: #E0A100;
     --white: #ffffff;
     --lightgrey: #EEF1EF;
     --darkgrey: #5E6572;
@@ -56,12 +56,12 @@ h2 {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 10px;
-  }
+}
 
-  h3 {
+h3 {
       font-size: .75rem;
       text-align: center;
-  }
+}
 
 
 header {
@@ -113,7 +113,7 @@ nav ul {
 	padding: 0;
 	overflow: hidden;
     background-color: var(--yellow);
-    color: var(--white);
+    color: var(--darkblue);
 }
 
 .navigation li:first-child {
@@ -126,7 +126,7 @@ nav ul {
 
 nav ul li a {
 	display: block;
-	color: var(--white);
+	color: var(--darkblue);
     font-weight: bold;
 	text-align: center;
 	padding: 0.75rem;
@@ -162,6 +162,7 @@ nav a:hover {
 
 .active {
     background-color: var(--blue);
+    color: var(--white);
 }
 
 .weathersummary {
