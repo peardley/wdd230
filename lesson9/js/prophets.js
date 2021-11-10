@@ -16,8 +16,6 @@ fetch(requestURL)
         let birthPlace = document.createElement('p');
         let img = document.createElement('img');
 
-        card.setAttribute("class", `order${prophets[i].order}`);
-
         h2.textContent = `${prophets[i].name} ${prophets[i].lastname}`;
         birthDate.textContent = `Date of Birth: ${prophets[i].birthdate}`;
         birthPlace.textContent = `Place of Birth: ${prophets[i].birthplace}`;
