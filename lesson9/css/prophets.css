@@ -63,7 +63,7 @@ footer {
         font-size: 32pt;
     }
 
-    div.cards{
+    .cards{
         grid-template-columns: 1fr 1fr;
     }
 
@@ -75,7 +75,7 @@ footer {
 /* -------Large view CSS---------------- */
 @media only screen and (min-width: 64em){
 
-    div.cards {
+    .cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
