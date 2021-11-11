@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and More Home Page</title>
+    <meta name="description" content="This is the home page for the weatherandmore.net site. This page contains
+    a brief town description of the towns in Idaho that are highlighted along with some weather related statistics
+    for each area. They towns included on this site are Preston, Fish Haven and Soda Springs.">
+    <link rel="icon" href="../lesson5/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../lesson5/css/small.css"/>
+    <link rel="stylesheet" href="../lesson5/css/medium.css"/>
+    <link rel="stylesheet" href="../lesson5/css/large.css"/>
+    <script defer src="../lesson5/js/togglemenu.js"></script>
+    <script defer src="../lesson7/js/currentdate.js"></script>
+    <script defer src="js/home.js"></script>     
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/weather-logo1.jpg" alt="image of a sun behind a cloud with an umbrella">
+        </picture>
+        <section class="heading">
+            <h1>Weather and More Site</h1>
+            <q class="motto">Enjoying all SE Idaho has to offer!</q>  
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="ham" href="#">&#9776; MENU</a></li>
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="../lesson6/preston-6.html">PRESTON</a></li>
+            <li><a href="#">SODA SPRINGS</a></li>
+            <li><a href="#">FISH HAVEN</a></li>
+            <li><a href="#">STORM CENTER</a></li>
+            <li><a href="../lesson7/gallery-7.html">GALLERY</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class=towninfo></div>
+    
+        <section id="homearticle"></section>
+        
+        
+    </main>
+    <footer>
+        <div class="locationinfo">
+            <div class="googlemap">
+            <a href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">
+                <img src="images/googlemap.jpg" alt="google map of south eastern idaho"></a>
+                </div>
+            <div class=contactinfo>
+                <p>Weather and More Site</p>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p>&#9742; 999.999.9999</p>
+                <p>&#128231;weatherandmore@gmail.com</p>
+                <br>
+                <a href="https://facebook.com"><img src="images/facebookicon.png" alt="facebook icon"></a>
+                <a href="https://twitter.com"><img src="images/twittericon.png" alt="twitter icon"></a>
+                <a href="https://pinterest.com"><img src="images/pinteresticon.png" alt="pinterest icon"></a>
+            </div>
+        </div>
+        <div class="bottomfooter">
+            &copy; Weather and More | Attributions | Patty Eardley
+            <p><span id="currentdate"></span></p>
+            <p><span id="weekday"></span></p>
+        </div>
+    </footer>   
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>
+        WebFont.load({google: {families: ['Montserrat', 'Inter']}});
+    </script>
+</body>
+</html>

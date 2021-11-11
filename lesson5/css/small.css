@@ -430,3 +430,30 @@ footer p {
     margin-left: 3rem;
     
 }
+
+/* -------home page---------------- */
+
+.towninfo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 1rem;
+}
+
+.towninfo section {
+    background-color: var(--lightgrey);
+    color: var(--darkblue);
+    max-width: 100%;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+.towninfo img { 
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 400px;
+}
