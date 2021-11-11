@@ -101,6 +101,7 @@
 
     .danger {
         font-size: 16pt;
+    }
 
     .locationinfo {
         max-width: 100%;
@@ -110,5 +111,45 @@
         margin-left: 12rem;
     }
 
+/* -------home page---------------- */
+
+    #home {
+        background-color: var(--white);
+    }
+
+    .towninfo {
+        width: 100%;
+        margin: .5rem auto;
+        background-color: var(--white);
+	    display: grid;
+	    grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .towninfo div h2 {
+        font-size: 18pt;
+        margin-bottom:  0;
+        background-color: var(--darkblue);
+        color: var(--white);
+        padding-top: 1rem;
+        text-shadow: 0;
+    }
+
+    .towninfo section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;    
+      }
+
+    .towninfo section div {
+        width: 100%;
+    }
+
+      .towninfo img {
+          width: 90%;
+          padding: 1rem;
+          background-color: var(--darkblue);
+          margin: 0 auto;
+      }
+      
 }
   

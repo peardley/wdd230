@@ -35,7 +35,7 @@
     .motto {
         font-size: 1rem;
     }
-        
+/* -------navigation bar---------------- */
     nav ul li a {
         border-top: none;
     }
@@ -62,6 +62,8 @@
         display: none;
     }
    
+/* -------town pages---------------- */
+
     .herodiv {
         position: relative;
         max-width: 767px;
@@ -142,6 +144,8 @@
         margin-top: 0;
     }
 
+    /* -------gallery page---------------- */
+
     .weathergallery {
         max-width: 767px;
         display: grid;
@@ -163,6 +167,8 @@
         width: 100%;
     }
 
+/* -------storm center page---------------- */
+
     main form {
         width: 500px;
     }
@@ -182,6 +188,8 @@
         flex-direction: row;
     }
 
+/* -------thank you page---------------- */
+
     .thankyou {
         display: block;
     }
@@ -192,4 +200,62 @@
     .thankyou img {
         margin: 0 auto;
     }
+
+/* -------home page---------------- */
+
+    #home {
+        background-color: var(--white);
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .towninfo {
+        width: 100%;
+        margin: .5rem auto;
+        background-color: var(--white);
+	    display: flex;
+	    flex-wrap: wrap;
+    }
+
+    .towninfo div {
+        background-color: var(--darkblue);
+    }
+
+    .towninfo div h2 {
+        font-size: 18pt;
+        margin-bottom:  0;
+        background-color: var(--darkblue);
+        color: var(--white);
+        padding-top: 1rem;
+        text-shadow: 0;
+    }
+
+    .towninfo div h3 {
+        background-color: var(--darkblue);
+    }
+    
+    .towninfo div p {
+        background-color: var(--darkblue);
+        color: var(--white);
+
+    }
+    .towninfo section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .towninfo section:nth-child(even) {
+          flex-direction: row-reverse;
+      }
+
+      .towninfo img {
+          width: 50%;
+          padding: 1rem;
+          background-color: var(--darkblue);
+          margin: 0 auto;
+      }
+      .towninfo div {
+          width: 50%;
+      }
 }
