@@ -26,7 +26,7 @@ fetch(requestURL)
         population.textContent = `Population: ${towns[i].currentPopulation}`;
         averageRainfall.textContent = `Annual Rain Fall: ${towns[i].averageRainfall}`;
         
-        img.setAttribute('src', `/lesson9/images/${towns[i].photo}`);
+        img.setAttribute('src', `images/${towns[i].photo}`);
         img.setAttribute('alt', `Landscape view of ${towns[i].name}`);    
         
         div.appendChild(h2);
