@@ -144,7 +144,7 @@ nav ul li a {
 
 .active {
     background-color: var(--blue);
-    color: white;
+    color: var(--white);
 }
 
 nav a:active {
