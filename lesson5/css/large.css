@@ -131,7 +131,6 @@
         background-color: var(--darkblue);
         color: var(--white);
         padding-top: 1rem;
-        text-shadow: 0;
     }
 
     .towninfo div h3 {

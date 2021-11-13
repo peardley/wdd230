@@ -448,7 +448,7 @@ footer p {
 
 #home {
     background-color: var(--darkblue);
-    width: 1005 
+    width: 1000; 
 }
 
 .homeherodiv{
@@ -496,7 +496,6 @@ footer p {
     margin-bottom:  0;
     background-color: var(--white);
     padding-top: 1rem;
-    text-shadow: 0;
 }
 
 .towninfo h3 {
@@ -528,7 +527,7 @@ footer p {
 
 #homearticle h3 {
     font-size: 11pt;
-    color: var(--yellow);
+    color: var(--blue);
     padding: 0 .5rem 0 .5rem;
     margin-top: 0;
 }
