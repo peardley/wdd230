@@ -63,6 +63,7 @@ h3 {
       text-align: center;
 }
 
+/* -------header---------------- */
 
 header {
     background-color: var(--white);
@@ -102,6 +103,8 @@ header img{
     padding: 0 5px 5px 5px;
 }
 
+/* -------navigation bar---------------- */
+
 nav {
     padding-top: 0;
 }
@@ -139,16 +142,21 @@ nav ul li a {
     display: block;
 }
 
+.active {
+    background-color: var(--blue);
+    color: white;
+}
+
 nav a:active {
     background-color: rgba(0,0,0,0.1);
     color: var(--white);
 }
-
 nav a:hover {
-    background-color: rgba(0,0,0,0.2);
-    color: var(--darkblue); 
+    background-color: rgba(0,0,0,0.2); 
     color: var(--white);      
 }
+
+/* ---------town pages---------------- */
 
 .herodiv {
     max-width: 767px;
@@ -158,11 +166,6 @@ nav a:hover {
     margin: 10px auto;
     width: 100%;
     height: auto;
-}
-
-.active {
-    background-color: var(--blue);
-    color: var(--white);
 }
 
 .weathersummary {
@@ -215,6 +218,8 @@ nav a:hover {
     width: 100%;
 }
 
+/* ----------gallery page---------------- */
+
 figure {
     padding: 0;
     margin: 0 auto;
@@ -256,6 +261,8 @@ figcaption {
     padding: 0;
     margin: 0 auto;
 }
+
+/* ----------storm center page---------------- */
 
 .instructions {
     text-align: center;
@@ -374,6 +381,8 @@ form textarea {
     color: var(--darkblue);
   }
 
+/* ----------contact footer---------------- */
+
 .locationinfo {
     display: grid;
     max-width: 767px;
@@ -406,6 +415,8 @@ form textarea {
     width: 30px;
 }
 
+/* -------bottom footer---------------- */
+
 footer {
     background-color: var(--darkblue);
     color: var(--white);
@@ -435,6 +446,19 @@ footer p {
 
 #home {
     background-color: var(--darkblue);
+    width: 1005 
+}
+
+.homeherodiv{
+    margin-bottom: 10px;
+}
+.homeherodiv picture {
+    margin: 0 auto;
+}
+
+.homeherodiv picture img {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .towninfo {
@@ -466,7 +490,7 @@ footer p {
 }
 
 .towninfo h2 {
-    font-size: 16pt;
+    font-size: 18pt;
     margin-bottom:  0;
     background-color: var(--white);
     padding-top: 1rem;
@@ -474,14 +498,48 @@ footer p {
 }
 
 .towninfo h3 {
-    margin-top: 0;
+    margin-top: -5px;
     margin-bottom: 20px;
     background-color: var(--white);
     color: var(--yellow); 
     padding: .5rem;
+    font-size: 10pt;
     border-bottom: 1px solid var(--darkgrey);
 }
 
 .towninfo p {
     font-size: 12pt;
+}
+
+#homearticle {
+    background-color: var(--lightgrey);
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#homearticle h2 {
+    font-size: 18pt;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+#homearticle h3 {
+    font-size: 11pt;
+    color: var(--yellow);
+    padding: 0 .5rem 0 .5rem;
+    margin-top: 0;
+}
+
+#homearticle h4 {
+    font-size: 14pt;
+    text-align: center;
+}
+
+#homearticle img {
+    width: 100%;
+}
+
+#homearticle p {
+    padding: 1rem;
 }

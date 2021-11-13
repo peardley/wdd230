@@ -243,10 +243,15 @@
         width: 100%;
         display: flex;
         flex-direction: row;
+        box-shadow: 5px 5px 10px var(--darkgrey);
       }
       
       .towninfo section:nth-child(even) {
           flex-direction: row-reverse;
+      }
+
+      .towninfo section:hover {
+        box-shadow: 10px 10px 10px var(--yellow); 
       }
 
       .towninfo img {
@@ -258,4 +263,24 @@
       .towninfo div {
           width: 50%;
       }
+
+      #homearticle img {
+        width: 50%;
+        float: right;
+        padding: 1rem;    
+    }
+
+    #homearticle h3 {
+        margin-top: -10px;
+    }
+
+    #homearticle h4 {
+        text-align: left;
+        padding: 0 0 0 1rem;
+    }
+
+    #homearticle p {
+        font-size: 14pt;
+        padding-top: 0;
+    }
 }

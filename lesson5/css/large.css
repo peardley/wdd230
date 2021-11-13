@@ -7,7 +7,7 @@
     }
 
     main {
-        max-width: 960px;
+        max-width: 1000px;
     }
 
     body {
@@ -126,12 +126,17 @@
     }
 
     .towninfo div h2 {
-        font-size: 18pt;
+        font-size: 24pt;
         margin-bottom:  0;
         background-color: var(--darkblue);
         color: var(--white);
         padding-top: 1rem;
         text-shadow: 0;
+    }
+
+    .towninfo div h3 {
+        font-size: 10pt;
+        padding-top: 0;
     }
 
     .towninfo section {
@@ -145,11 +150,30 @@
     }
 
       .towninfo img {
-          width: 90%;
+          width: 91.25%;
           padding: 1rem;
           background-color: var(--darkblue);
           margin: 0 auto;
       }
+
+    #homearticle h2 {
+        font-size: 24pt;
+    }  
+
+    #homearticle h3 {
+        font-size: 14pt;
+        margin-top: -10px;
+    }
+
+    #homearticle h4 {
+        text-align: left;
+        padding: 0 0 0 1rem;
+    }
+
+    #homearticle p {
+        font-size: 14pt;
+        padding-top: 0;
+    }
       
 }
   
