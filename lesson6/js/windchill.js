@@ -1,3 +1,4 @@
+/*
 let speed = document.getElementById('speed').innerHTML;
 let temp = document.getElementById('temp').innerHTML;
 let chill = document.getElementById('chill');
@@ -16,4 +17,4 @@ chill.innerHTML = wc;
 
 if((speed < 3) && (temp > 40)){chill.innerHTML = 'N/A';
     }
-
+*/

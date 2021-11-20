@@ -37,13 +37,6 @@ fetch(requestURL)
         card.appendChild(div);
         card.appendChild(img); 
 
-        /*card.appendChild(h2);
-        card.appendChild(h3);
-        card.appendChild(yearFounded);
-        card.appendChild(population);
-        card.appendChild(averageRainfall);
-        card.appendChild(img);*/
-
         document.querySelector('div.towninfo').appendChild(card);
         }
     };
