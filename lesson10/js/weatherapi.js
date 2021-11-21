@@ -1,4 +1,4 @@
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=3aa97004348628212561256cc4c26234";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=3aa97004348628212561256cc4c26234";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -44,7 +44,7 @@ if((speed < 3) && (temp > 40)){chill.innerHTML = 'N/A';
     }
 
 
-const forecastURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=3aa97004348628212561256cc4c26234";
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=3aa97004348628212561256cc4c26234";
 fetch(forecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -74,10 +74,15 @@ document.getElementById("day4").textContent = unixToDate(fiveDayForecast[3].dt);
 document.getElementById("day5").textContent = unixToDate(fiveDayForecast[4].dt);
  
 document.getElementById('forecastimg1').setAttribute("src", `${imageLink}${fiveDayForecast[0].weather[0].icon}.png`);
+document.getElementById('forecastimg1').setAttribute("alt", `${fiveDayForecast[0].weather[0].description}`);
 document.getElementById('forecastimg2').setAttribute("src", `${imageLink}${fiveDayForecast[1].weather[0].icon}.png`);
+document.getElementById('forecastimg2').setAttribute("alt", `${fiveDayForecast[1].weather[0].description}`);
 document.getElementById('forecastimg3').setAttribute("src", `${imageLink}${fiveDayForecast[2].weather[0].icon}.png`);
+document.getElementById('forecastimg3').setAttribute("alt", `${fiveDayForecast[2].weather[0].description}`);
 document.getElementById('forecastimg4').setAttribute("src", `${imageLink}${fiveDayForecast[3].weather[0].icon}.png`);
+document.getElementById('forecastimg4').setAttribute("alt", `${fiveDayForecast[3].weather[0].description}`);
 document.getElementById('forecastimg5').setAttribute("src", `${imageLink}${fiveDayForecast[4].weather[0].icon}.png`);
+document.getElementById('forecastimg5').setAttribute("alt", `${fiveDayForecast[4].weather[0].description}`);
 
 document.getElementById('forecasttemp1').textContent = fiveDayForecast[0].main.temp;
 document.getElementById('forecasttemp2').textContent = fiveDayForecast[1].main.temp; 
