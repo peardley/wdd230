@@ -85,6 +85,10 @@
         font-size: 16pt;
     }
 
+    .weathersummary h3 {
+        font-size: 1.5rem;
+    }
+
     .forecast {
         max-width: 1200px;
         margin: 0 auto;
@@ -97,9 +101,9 @@
     #forecastimg3,
     #forecastimg4,
     #forecastimg5 {
-        width: 60%;
+        width: 50%;
     }
-    
+
     .forecast h3 {
         font-size: 1.5rem;
     }
