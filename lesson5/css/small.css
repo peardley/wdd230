@@ -173,13 +173,14 @@ nav a:hover {
 .weathersummary {
     max-width: 767px;
     padding: 1rem;
-    color: var(--white);
+    color: var(--darkblue);
     background-color: var(--yellow);
     font-size: 16px;
     margin-bottom: 20px;
 }
 
 .weathersummary h3 {
+    font-size: 1.25rem;
     padding: 0;
     border-bottom: 1px solid black;
     text-align: center;
@@ -218,6 +219,10 @@ nav a:hover {
 
 .articlebox img {
     width: 100%;
+}
+
+footer a {
+    color: var(--yellow);
 }
 
 /* ----------gallery page---------------- */

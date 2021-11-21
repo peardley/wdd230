@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 55em) {
 	
     header,
     nav,
@@ -64,12 +64,17 @@
 
     .herodiv {
         position: relative;
-        width: 960px;    
-        padding: 0;        
+        max-width: 1200px;   
+        padding: 0;
+        margin: 0 auto;        
+    }
+
+    .herodiv picture {
+        width: 100%;
     }
 
     .heropic {
-        margin: 10px auto;
+        margin: 0 auto;
         width: 100%;
         height: auto;
     }
@@ -80,8 +85,29 @@
         font-size: 16pt;
     }
 
+    .forecast {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    
+    #forecastimg1,
+    #forecastimg2,
+    #forecastimg3,
+    #forecastimg4,
+    #forecastimg5 {
+        width: 60%;
+    }
+    
+    .forecast h3 {
+        font-size: 1.5rem;
+    }
+
     .articlebox {
         max-width: 960px;
+        margin: 0 auto;
+        padding: 1rem;
     }
 
     .weathergallery {

@@ -46,14 +46,13 @@
     </nav>
     <main>
         <h2>Preston, Idaho</h2>
-        <div class="herodiv">
-            <div>
-                <picture>
-                <source srcset="../lesson6/images/franklin-799w.jpeg" media="(min-width: 500px) and (max-width: 799px)">
-                <source srcset="../lesson6/images/franklin-1200w.jpeg" media="(min-width: 800px)">
-                <img class ="heropic" src="../lesson6/images/franklin-499w.jpeg" alt="scenic mountain picture with blue skies and clouds">
-                </picture>
-            </div>
+        <div class="herodiv">            
+            <picture>
+                <source srcset="../lesson6/images/preston-499.jpg" media="(max-width: 400px)">
+                <source srcset="../lesson6/images/preston-799.jpg" media="(max-width: 600px)">
+                <img class ="heropic" src="../lesson6/images/prestonpic2.jpg" alt="scenic mountain picture with blue skies and clouds">
+            </picture>
+            
             <section class="weathersummary">
                 <h3>Weather Summary</h3>
                 <table class=weathertable>
@@ -151,7 +150,7 @@
             </div>
         </div>
         <div class="bottomfooter">
-            &copy; Weather and More | <a href="https://openweathermap.org">OpenWeatherMap</a> | Patty Eardley
+            &copy; Weather and More | Weather Data Source: <a href="https://openweathermap.org">OpenWeatherMap</a> | Patty Eardley
             <p><span id="currentdate"></span></p>
             <p><span id="weekday"></span></p>
         </div>

@@ -66,7 +66,7 @@
 
     .herodiv {
         position: relative;
-        max-width: 767px;
+        max-width: 800px;
     }
     
     .heropic {
@@ -113,7 +113,7 @@
     
     .forecast th {
         background-color: var(--blue);
-        color: var(--darkblue);
+        color: var(--white);
         border: 1px solid var(--darkblue);
     
     }
@@ -133,15 +133,20 @@
         float: right;
         padding: 1rem;
         margin-top: 10px;
-        box-shadow: 0 0 30px var(--darkgrey);
     }
 
     .article p {
-        padding: 2rem;
+        padding: .5rem;
+        font-size: 14pt;
+        line-height: 1 rem;
     }
 
     .articlebox h3 {
         margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        text-align: left;
+        padding: .5rem;
     }
 
     /* -------gallery page---------------- */
@@ -263,7 +268,7 @@
           width: 50%;
       }
 
-      #homearticle img {
+    #homearticle img {
         width: 50%;
         float: right;
         padding: 1rem;    
