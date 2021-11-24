@@ -1,0 +1,209 @@
+@media only screen and (min-width: 55em) {
+	
+    header,
+    nav,
+    footer {
+        max-width: 100%;
+    }
+
+    main {
+        max-width: 1000px;
+    }
+
+    body {
+        font-size: 16pt;
+    }
+
+    aside {
+        display: block;
+        max-width: 100%;
+        background-color: var(--darkblue);
+        color: var(--white);
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+        font-size: 16pt;
+    }
+    
+    picture {
+        max-width: 150px;
+    }
+
+    header img {
+        padding: 5px;
+        margin: 10px 0 0 0;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        color: var(--blue);
+        margin-left: 15pt;
+        font-size: large;
+    }
+
+    h1 { 
+        font-size: 3rem;
+        margin: 0 0 0 5px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+        
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    nav a {
+        font-size: 1.4rem;
+    }
+
+    .herodiv {
+        position: relative;
+        max-width: 1200px;   
+        padding: 0;
+        margin: 0 auto;        
+    }
+
+    .herodiv picture {
+        width: 100%;
+    }
+
+    .heropic {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .weathersummary {
+        top: 50px;
+        left: 50px;
+        font-size: 16pt;
+    }
+
+    .weathersummary h3 {
+        font-size: 1.5rem;
+    }
+
+    .forecast {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    
+    #forecastimg1,
+    #forecastimg2,
+    #forecastimg3,
+    #forecastimg4,
+    #forecastimg5 {
+        width: 50%;
+    }
+
+    .forecast h3 {
+        font-size: 1.5rem;
+    }
+
+    .articlebox {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .weathergallery {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+  figure:hover {
+    box-shadow: 0 0 20px var(--yellow);
+    }
+
+    main form {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .danger {
+        font-size: 16pt;
+    }
+
+    .locationinfo {
+        max-width: 100%;
+    }
+
+    .googlemap {
+        margin-left: 12rem;
+    }
+
+/* -------home page---------------- */
+
+    #home {
+        background-color: var(--white);
+    }
+
+    .towninfo {
+        width: 100%;
+        margin: .5rem auto;
+        background-color: var(--white);
+	    display: grid;
+	    grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .towninfo div h2 {
+        font-size: 24pt;
+        margin-bottom:  0;
+        background-color: var(--darkblue);
+        color: var(--white);
+        padding-top: 1rem;
+    }
+
+    .towninfo div h3 {
+        font-size: 10pt;
+        padding-top: 0;
+    }
+
+    .towninfo section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;    
+      }
+
+    .towninfo section div {
+        width: 100%;
+    }
+
+      .towninfo img {
+          width: 90%;
+          padding: 1rem;
+          background-color: var(--darkblue);
+          margin: 0 auto;
+      }
+
+    #homearticle h2 {
+        font-size: 24pt;
+    }  
+
+    #homearticle h3 {
+        font-size: 14pt;
+        margin-top: -10px;
+    }
+
+    #homearticle h4 {
+        text-align: left;
+        font-size: 12pt;
+        padding: 0 0 0 1rem;
+    }
+
+    #homearticle p {
+        font-size: 14pt;
+        padding-top: 0;
+    }
+      
+}
+  

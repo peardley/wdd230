@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and More Home Page</title>
+    <meta name="description" content="This is the home page for the weatherandmore.net site. This page contains
+    a brief town description of the towns in Idaho that are highlighted along with some weather related statistics
+    for each area. They towns included on this site are Preston, Fish Haven and Soda Springs.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+    <script defer src="js/togglemenu.js"></script>
+    <script defer src="js/currentdate.js"></script>
+    <script defer src="js/weatherapi.js"></script> 
+<body>
+    <header>
+        <picture>
+            <img src="images/weather-logo1.jpg" alt="weather and more icon">
+        </picture>
+        <section class="heading">
+            <h1>Weather and More Site</h1>
+            <q class="motto">Enjoying all SE Idaho has to offer!</q>  
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="ham" href="#">&#9776; MENU</a></li>
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="preston.html">PRESTON</a></li>
+            <li><a href="sodasprings.html">SODA SPRINGS</a></li>
+            <li><a href="fishhaven.html">FISH HAVEN</a></li>
+            <li><a href="stormcenter.html">STORM CENTER</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+        </ul>
+    </nav>
+    <main id="home">
+        <div class="homeherodiv">
+            <picture>
+            <source srcset="images/homeheromedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+            <source srcset="images/homeherolarge.jpg" media="(min-width: 800px)">
+            <img class ="heropic" src="images/homeherosmall.jpg" alt="man walking with umbrella in the rain on mountain trail">
+            </picture>
+        </div>
+        <div class=towninfo></div>   
+        <section id="homearticle">
+            <h2>Tips for winterizing your home ahead of cold weather</h2>
+            <h3>Getting prepared before the first snowfall of the season can save homeowners time and headaches.</h3>
+            <h4>By Sophia Bliss</h4>
+            <img src="images/winterhouse.jpg" alt="village in winter weather">
+            <p>BOISE, Idaho — After the record heat we saw this summer, many of us are probably ready for cooler temps, but your house and yard might not be. Temperatures in the Treasure Valley will be above freezing this week but could start creeping lower very soon. 
+
+                Whether you are new to Idaho winters or a cold-weather vet, there are a few things you can do to get ready for freezing temperatures that can wreak havoc on pipes, sprinklers, and foundations.
+                
+                
+                One way to start is by getting your sprinklers blown out. While we haven’t seen a hard freeze of 28 degrees or below yet, it will get that cold eventually. When temperatures dip and stay that cold for several hours, sprinkler and house pipes can freeze which could make them burst.
+                
+                Water is one of the only substances that expands when it freezes, because of the way water molecules are charged. When water freezes, it crystallizes into a hexagonal shape. So the same amount of liquid water that fits in the pipe, with no problems, may create thousands of dollars in damage for your yard, or in your home. 
+                
+                Residents will also want to pay attention to hoses: While a hose bib is freeze-resistant, if there’s a hose hooked to it, it can freeze and damage the pipes back in the wall.
+                
+                Next, check the heater. Heaters can give off too much carbon dioxide if they’re not operating properly. And, with all the wildfire smoke we’ve had around this year, air filters will need to be checked and possibly replaced. Doing so sooner rather than later is a good bet: Earlier this year, air conditioning parts were on backorder due to COVID-19 shipping delays.
+                
+                It’s also a good idea to check your gutters and clean out all the fall leaves and debris. Gutter drains should be pointed away from the foundation, so that rain or melted snow doesn’t pose a threat of freezing and causing damage.
+                
+                And just to make sure you stay warm and cozy all winter without wasting any energy, check your doors and windows for gaps. You can find leaks by running your hand along the seams of your windows and doors, applying weather stripping in areas where there is cold air or a draft. Keeping openings properly sealed can reduce your heating bills by up to 10%.
+                
+                If this is your first winter in Idaho, we average anywhere from 10-20" of snow in the Treasure Valley. Having a snow shovel on hand and an ice scraper in your car before the first snowfall can also really help reduce stress later.</p>
+        </section>
+
+        
+        
+    </main>
+    <footer>
+        <div class="locationinfo">
+            <div class="googlemap">
+            <a href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">
+                <img src="images/googlemap.jpg" alt="google map of south eastern idaho"></a>
+                </div>
+            <div class=contactinfo>
+                <p>Weather and More Site</p>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p>&#9742; 999.999.9999</p>
+                <p>&#128231;weatherandmore@gmail.com</p>
+                <br>
+                <a href="https://facebook.com"><img src="images/facebookicon.png" alt="facebook icon"></a>
+                <a href="https://twitter.com"><img src="images/twittericon.png" alt="twitter icon"></a>
+                <a href="https://pinterest.com"><img src="images/pinteresticon.png" alt="pinterest icon"></a>
+            </div>
+        </div>
+        <div class="bottomfooter">
+            &copy; Weather and More | Attributions | Patty Eardley
+            <p><span id="currentdate"></span></p>
+            <p><span id="weekday"></span></p>
+        </div>
+    </footer>   
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>
+        WebFont.load({google: {families: ['Montserrat', 'Inter']}});
+    </script>
+</body>
+</html>
