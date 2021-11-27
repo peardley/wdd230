@@ -15,15 +15,11 @@
     <link rel="stylesheet" href="css/large.css"/>
     <script defer src="js/togglemenu.js"></script>
     <script defer src="js/currentdate.js"></script>
-    <script defer src="js/banner.js"></script>
-    <script defer src="js/weatherapi.js"></script> 
+    <script defer src="js/sodaspringsapi.js"></script> 
     
 </head>
 <body>
-    <aside>
-        <p>Saturday = Preston Pancake in the Park!</p>
-        <p>9:00 a.m. Saturday at the City Park</p>
-    </aside>
+
     <header>
         <picture>
             <img src="images/weather-logo1.jpg" alt="image of a sun behind a cloud with an umbrella">
@@ -48,9 +44,10 @@
         <h2>Soda Springs, Idaho</h2>
         <div class="herodiv">            
             <picture>
-                <source srcset="images/preston-499.jpg" media="(max-width: 400px)">
-                <source srcset="images/preston-799.jpg" media="(max-width: 600px)">
-                <img class ="heropic" src="images/prestonpic2.jpg" alt="scenic mountain picture with blue skies and clouds">
+                <source media="(min-width: 801px)" srcset="images/sodasprings-large.jpg">
+                <source media="(max-width: 800px)" srcset="images/sodasprings-medium.jpg">
+                <source media="(max-width: 500px)" srcset="images/sodasprings-medium.jpg">
+                <img class ="heropic" src="images/sodasprings-small.jpg" alt="Hero picture of scenic mountain in fall with blue skies and clouds">
             </picture>
             
             <section class="weathersummary">
@@ -109,6 +106,9 @@
                 </tr>
             </table>
         </div>
+        <section class="events">
+            <h3>Upcoming Events</h3>
+        </section>
         <div class="articlebox">
             <img class="articlepic" src="articlepic.jpg" alt="girl with long black hair walking in a corn maze">
             <div class="article">

@@ -18,7 +18,7 @@ body {
 
 aside {
     display: block;
-    max-width: 767px;
+    max-width: 500px;
     background-color: var(--darkblue);
     color: var(--white);
     margin: 0 auto;
@@ -33,7 +33,7 @@ aside p {
 }
 
 header, main, footer, nav {
-    max-width: 767px;
+    max-width: 500px;
     margin: 0 auto;
     padding: .75rem;
 }
@@ -161,17 +161,17 @@ nav a:hover {
 /* ---------town pages---------------- */
 
 .herodiv {
-    max-width: 767px;
+    max-width: 500px;
 }
 
 .heropic {
     margin: 10px auto;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
 .weathersummary {
-    max-width: 767px;
+    max-width: 500px;
     padding: 1rem;
     color: var(--darkblue);
     background-color: var(--yellow);
@@ -206,6 +206,27 @@ nav a:hover {
     display: none;
 }
 
+.events {
+    background-color: var(--darkblue);
+    color: var(--white);
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.events h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    border-bottom: 1px solid var(--yellow);
+
+}
+
+.events p {
+    font-size: 1rem;
+    text-align: center;
+}
+
 .articlebox {
     display: grid;
     grid-template-columns: 1fr;
@@ -214,11 +235,11 @@ nav a:hover {
     padding: 1rem;
     margin: 0 auto;
     align-items: center;
-    max-width: 767px;
+    max-width: 500px;
 }
 
 .articlebox img {
-    width: 100%;
+    max-width: 100%;
 }
 
 footer a {
@@ -452,19 +473,20 @@ footer p {
 /* -------home page---------------- */
 
 #home {
-    background-color: var(--darkblue);
-    width: 1000px; 
+    background-color: var(--white);
+    max-width: 100%; 
 }
 
 .homeherodiv{
     margin-bottom: 10px;
+    margin-top: -25px;
 }
 .homeherodiv picture {
     margin: 0 auto;
 }
 
 .homeherodiv picture img {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -492,7 +514,7 @@ footer p {
 .towninfo img { 
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: -10px;
 }
 
@@ -522,6 +544,7 @@ footer p {
     max-width: 100%;
     margin: 0 auto;
     margin-top: 20px;
+    max-width: 100%;
 }
 
 #homearticle h2 {
@@ -543,7 +566,7 @@ footer p {
 }
 
 #homearticle img {
-    width: 100%;
+    max-width: 100%;
 }
 
 #homearticle p {

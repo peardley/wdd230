@@ -1,8 +1,13 @@
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 500px) {
 
-    header, main, footer, nav {
-        max-width: 767px;
+    header, footer, nav {
+        max-width: 800px;
         padding: 0;
+    }
+
+    main {
+        max-width: 700px;
+        padding: 1rem;
     }
 
     header {
@@ -66,11 +71,12 @@
 
     .herodiv {
         position: relative;
-        max-width: 800px;
+        max-width: 90%;
+        margin: 0 auto;
     }
     
     .heropic {
-        margin: 10px auto;
+        margin: 0 auto;
         width: 100%;
         height: auto;
     }
@@ -79,14 +85,15 @@
         position:absolute;
         top: 25px;
         left: 25px;
-        padding: 1rem;
+        padding: .5rem;
         color: var(--white);
         opacity: 0.8;
         box-shadow: 0 0 30px #777;
-        font-size: 14pt;
+        font-size: 12pt;
     }
     
     .weathersummary h3 {
+        font-size: 1rem;
         padding: 0;
         border-bottom: 1px solid black;
         margin: 0 auto;
@@ -95,14 +102,18 @@
 
     .forecast {
         display: block;
-        max-width: 960px;
+        max-width: 800px;
         text-align:center;
         margin: 0 0 30px 0;
         align-items: center;
     }
 
+    .forecast h3 {
+        font-size: 1.25rem;
+    }
+
     .forecast table {
-        width: 100%;
+        width: 90%;
         text-align: center;
         justify-content: center;
         background-color: var(--lightgrey);
@@ -123,8 +134,29 @@
         border-left: 1px solid var(--darkblue);
     }
     
+    .events {
+        background-color: var(--lightgrey);
+        color: var(--darkblue);
+        padding: 1rem;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 10px solid var(--darkblue);
+        max-width: 600px;
+    }
+    
+    .events h3 {
+        font-size: 1.5rem;
+    
+    }
+    
+    .events p {
+        font-size: 1.25rem;
+    
+    }  
+
     .articlebox {
         display: block;
+        max-width: 90%;
     }
 
     .articlebox img {
@@ -211,11 +243,17 @@
         background-color: var(--white);
         margin: 0 auto;
         padding: 0;
+        max-width: 100%;
+    }
+
+    .homeherodiv{
+        margin-top: -20px;
     }
 
     .towninfo {
-        width: 100%;
-        margin: .5rem auto;
+        max-width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
         background-color: var(--white);
 	    display: flex;
 	    flex-wrap: wrap;
@@ -224,6 +262,7 @@
     .towninfo div {
         background-color: var(--darkblue);
     }
+    
 
     .towninfo div h2 {
         font-size: 18pt;
@@ -243,6 +282,7 @@
 
     }
     .towninfo section {
+        background-color: var(--darkblue);
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -267,8 +307,12 @@
           width: 50%;
       }
 
+    #homearticle {
+        width:90%;
+    }
+
     #homearticle img {
-        width: 50%;
+        max-width: 50%;
         float: right;
         padding: 1rem;    
     }

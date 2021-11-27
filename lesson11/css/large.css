@@ -1,4 +1,4 @@
-@media only screen and (min-width: 55em) {
+@media only screen and (min-width: 800px) {
 	
     header,
     nav,
@@ -7,7 +7,7 @@
     }
 
     main {
-        max-width: 1000px;
+        max-width: 100%;
     }
 
     body {
@@ -61,10 +61,10 @@
     nav a {
         font-size: 1.4rem;
     }
-
+/* -------town page---------------- */
     .herodiv {
         position: relative;
-        max-width: 1200px;   
+        max-width: 90%;   
         padding: 0;
         margin: 0 auto;        
     }
@@ -90,7 +90,7 @@
     }
 
     .forecast {
-        max-width: 1200px;
+        max-width: 750px;
         margin: 0 auto;
         margin-bottom: 20px;
         padding: 0;
@@ -108,11 +108,14 @@
         font-size: 1.5rem;
     }
 
+
     .articlebox {
-        max-width: 960px;
+        max-width: 90%;
         margin: 0 auto;
         padding: 1rem;
     }
+
+/* -------gallery page---------------- */
 
     .weathergallery {
         max-width: 1200px;
@@ -123,6 +126,8 @@
   figure:hover {
     box-shadow: 0 0 20px var(--yellow);
     }
+
+/* -------storm center page---------------- */
 
     main form {
         width: 500px;
@@ -148,7 +153,7 @@
     }
 
     .towninfo {
-        width: 100%;
+        max-width: 90%;
         margin: .5rem auto;
         background-color: var(--white);
 	    display: grid;

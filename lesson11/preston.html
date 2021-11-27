@@ -16,7 +16,7 @@
     <script defer src="js/togglemenu.js"></script>
     <script defer src="js/currentdate.js"></script>
     <script defer src="js/banner.js"></script>
-    <script defer src="js/weatherapi.js"></script> 
+    <script defer src="js/prestonapi.js"></script> 
     
 </head>
 <body>
@@ -48,9 +48,10 @@
         <h2>Preston, Idaho</h2>
         <div class="herodiv">            
             <picture>
-                <source srcset="images/preston-499.jpg" media="(max-width: 400px)">
-                <source srcset="images/preston-799.jpg" media="(max-width: 600px)">
-                <img class ="heropic" src="../lesson6/images/prestonpic2.jpg" alt="scenic mountain picture with blue skies and clouds">
+                <source media="(min-width: 801px)" srcset="images/preston-large.jpg">
+                <source media="(max-width: 800px)" srcset="images/preston-medium.jpg">
+                <source media="(max-width: 500px)" srcset="images/preston-small.jpg">
+                <img class ="heropic" src="images/preston-small.jpg" alt="Hero picture of a a red barn with a mountain in the background">
             </picture>
             
             <section class="weathersummary">
@@ -109,6 +110,9 @@
                 </tr>
             </table>
         </div>
+        <section class="events">
+            <h3>Upcoming Events</h3>
+        </section>
         <div class="articlebox">
             <img class="articlepic" src="images/articlepic.jpg" alt="girl with long black hair walking in a corn maze">
             <div class="article">
@@ -125,7 +129,9 @@
                 <p>Ei mei cibo scripta equidem. Ei tibique insolens liberavisse has, eu per choro expetendis persequeris. An suas 
                 possit mel, id eos sonet volutpat. Vis mollis iracundia efficiendi ne, eum errem moderatius referrentur an, no 
                 mea quando persius eruditi. Cu duo aliquip aliquam habemus. Quando euismod signiferumque at est, at vim fuisset 
-                hendrerit abhorreant. </p>  
+                hendrerit abhorreant.</p>
+                </div>
+ 
             </div>  
         </div>
 
