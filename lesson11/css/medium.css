@@ -115,7 +115,7 @@
     }
 
     .forecast table {
-        width: 90%;
+        width: 85%;
         text-align: center;
         justify-content: center;
         background-color: var(--lightgrey);
@@ -123,6 +123,7 @@
         margin-left:auto; 
         margin-right:auto;   
         margin-bottom: 2rem; 
+        box-shadow: 5px 5px 10px var(--darkgrey);
     }
     
     .forecast th {
@@ -142,14 +143,14 @@
         color: var(--white);
         padding: 1rem;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         border: 5px solid var(--yellow);
         max-width: 600px;
+        box-shadow: 5px 5px 10px var(--darkgrey);
     }
     
     .events h3 {
         font-size: 1.5rem;
-    
     }
     
     .events p {
@@ -209,7 +210,13 @@
     }
 
     .announcement h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .announcement h4 {
+        font-size: 1.25rem;
+        color: var(--blue);
+        text-align: center;
     }
 
     /* -------gallery page---------------- */
