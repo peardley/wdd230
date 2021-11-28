@@ -79,7 +79,6 @@
         margin: 0 auto;
         width: 100%;
         height: auto;
-        padding-bottom: 2rem;
     }
        
     .weathersummary {
@@ -107,10 +106,12 @@
         text-align:center;
         margin: 0 0 30px 0;
         align-items: center;
+        padding-top: 1rem;
     }
 
     .forecast h3 {
         font-size: 1.25rem;
+        padding-top: 2rem;
     }
 
     .forecast table {
