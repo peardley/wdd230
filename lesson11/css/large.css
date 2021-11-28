@@ -110,9 +110,30 @@
 
 
     .articlebox {
+        display: block;
+        max-width: 90%;
+    }
+
+    .articlebox, .articlebox-fishhaven {
         max-width: 90%;
         margin: 0 auto;
         padding: 1rem;
+    }
+
+    .articlebox img {
+        max-width: 50%;
+    }
+
+    .announcement h3 {
+        font-size: 1.25rem;
+    }
+
+    .announcement p {
+        font-size: 16pt;
+    }
+
+    .article p {
+        font-size: 16pt;
     }
 
 /* -------gallery page---------------- */
@@ -144,6 +165,11 @@
 
     .googlemap {
         margin-left: 12rem;
+    }
+
+    .thankyou {
+        max-width: 600px;
+        font-size: 18pt;
     }
 
 /* -------home page---------------- */
@@ -182,9 +208,9 @@
     .towninfo section div {
         width: 100%;
     }
-
-      .towninfo img {
-          width: 90%;
+  
+      .towninfo section img {
+          width: 85%;
           padding: 1rem;
           background-color: var(--darkblue);
           margin: 0 auto;

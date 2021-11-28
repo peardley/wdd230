@@ -79,6 +79,7 @@
         margin: 0 auto;
         width: 100%;
         height: auto;
+        padding-bottom: 2rem;
     }
        
     .weathersummary {
@@ -119,7 +120,8 @@
         background-color: var(--lightgrey);
         border: 1px solid var(--darkblue);
         margin-left:auto; 
-        margin-right:auto;    
+        margin-right:auto;   
+        margin-bottom: 2rem; 
     }
     
     .forecast th {
@@ -135,12 +137,12 @@
     }
     
     .events {
-        background-color: var(--lightgrey);
-        color: var(--darkblue);
+        background-color: var(--darkblue);
+        color: var(--white);
         padding: 1rem;
         margin: 0 auto;
         margin-bottom: 20px;
-        border: 10px solid var(--darkblue);
+        border: 5px solid var(--yellow);
         max-width: 600px;
     }
     
@@ -150,19 +152,32 @@
     }
     
     .events p {
-        font-size: 1.25rem;
+        font-size: 16pt;
     
     }  
 
     .articlebox {
+        max-width: 700px;
+    }
+
+    .articlebox-fishhaven {
         display: block;
         max-width: 90%;
     }
 
     .articlebox img {
-        width: 400px;
+        max-width: 90%;
         height: auto;
         float: right;
+        padding: 1rem;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .articlebox-fishhaven img {
+        float: left;
+        width: 40%;
+        height: auto;
         padding: 1rem;
         margin-top: 10px;
     }
@@ -178,6 +193,22 @@
         font-size: 1.5rem;
         text-align: left;
         padding: .5rem;
+    }
+
+    .articlebox-fishhaven h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        text-align: left;
+        padding: .5rem;
+    }
+
+    .announcement {
+        max-width: 90%;
+    }
+
+    .announcement h3 {
+        font-size: 1rem;
     }
 
     /* -------gallery page---------------- */
@@ -227,14 +258,9 @@
 /* -------thank you page---------------- */
 
     .thankyou {
-        display: block;
-    }
-    .thankyou img {
-        margin: 0 auto;
-    }
-
-    .thankyou img {
-        margin: 0 auto;
+        font-size: 16pt;
+        max-width: 500px;
+        box-shadow: 10px 10px 20px var(--darkgrey);
     }
 
 /* -------home page---------------- */

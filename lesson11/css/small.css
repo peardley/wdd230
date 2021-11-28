@@ -61,6 +61,7 @@ h2 {
 h3 {
       font-size: .75rem;
       text-align: center;
+      margin-top: 0;
 }
 
 /* -------header---------------- */
@@ -182,7 +183,7 @@ nav a:hover {
 .weathersummary h3 {
     font-size: 1.25rem;
     padding: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--darkblue);
     text-align: center;
 }
 
@@ -223,16 +224,16 @@ nav a:hover {
 }
 
 .events p {
-    font-size: 1rem;
+    font-size: 14pt;
     text-align: center;
 }
 
-.articlebox {
+.articlebox, .articlebox-fishhaven {
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--lightgrey);
     font-size: 1rem;
-    padding: 1rem;
+    padding: 0;
     margin: 0 auto;
     align-items: center;
     max-width: 500px;
@@ -240,6 +241,41 @@ nav a:hover {
 
 .articlebox img {
     max-width: 100%;
+}
+
+.articlebox h3 {
+    font-size: 1.25rem;
+}
+
+.articlebox-fishhaven img {
+    max-width: 100%;
+}
+
+.articlebox-fishhaven h3 {
+    font-size: 1.25rem;
+}
+
+.article {
+    padding: 1rem;
+}
+
+.announcement {
+    background-color: var(--lightgrey);
+    color: var(--darkblue);
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.announcement a {
+    color: var(--yellow);
+}
+
+.announcement p {
+    font-size: 14pt;
+}
+
+.announcement h3 {
+    font-size: 1.25rem;
 }
 
 footer a {
@@ -371,6 +407,7 @@ form p {
 .radio input {
     margin-left: 1rem;
     margin-top: 0;
+    height: 1.1rem;
 }
 
 .danger {
@@ -408,6 +445,17 @@ form textarea {
     background-color: var(--blue);
     color: var(--darkblue);
   }
+
+
+  .thankyou {
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--darkblue);
+    color: var(--white);
+    max-width: 500px;
+    font-size: 14pt;
+    
+}
 
 /* ----------contact footer---------------- */
 
@@ -451,6 +499,7 @@ footer {
     text-align: center;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     padding: 10px;
+    font-size: 12pt;
 }
 
 footer p {
@@ -461,14 +510,6 @@ footer p {
     padding: 1rem;
 }
 
-.thankyou {
-    margin: 0 auto;
-}
-
-.thankyou img {
-    margin-left: 3rem;
-    
-}
 
 /* -------home page---------------- */
 
