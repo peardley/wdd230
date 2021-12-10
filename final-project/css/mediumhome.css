@@ -1,0 +1,111 @@
+@media only screen and (min-width: 500px) {
+
+    body {
+        max-width: 1200px;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    header.menubar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header div.logo {
+        width: 400px;
+    }
+    
+    header div.logo picture {
+        width: 250px;
+        margin-top: 25px;
+    }
+        
+    .tooeleheading {
+        font-size: 30px;
+        padding-top: 1rem;
+        margin-bottom: -15px;
+    }
+    
+    .chamber {
+        font-size: 40px;
+    }
+    
+    .menubar {
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .socialbar {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+        align-content: flex-end;
+    }
+        
+    .socialbar ul {
+        margin: 0 auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .social ul li {
+        align-self: right;
+    }
+    
+    .socialbar img {
+        width: 35px;
+        padding: 0;
+    }
+                
+    .joinbutton {
+        margin-top: 1rem;
+        font-size: 18pt;
+     
+    }
+
+    .navigationbar {
+        background-color: var(--white);
+    }
+
+    nav {
+        padding: .5rem;
+        background-color: var(--white);
+    } 
+    
+    nav ul li {
+        border-top: none;
+    }
+
+    nav ul li a {
+        border-top: none;
+        color: var(--black);
+    }
+
+    nav a {
+        font-size: .9rem;
+    }
+
+    .navigation {
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    
+    .navigation a {
+        text-align:center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+}

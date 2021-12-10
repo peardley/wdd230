@@ -1,0 +1,347 @@
+@media only screen and (min-width: 500px) {
+
+    header, footer, nav {
+        max-width: 1200px;
+        padding: 0;
+    }
+
+    main {
+        max-width: 700px;
+        padding: 1rem;
+    }
+
+    header {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        margin-top: 2px;
+    }
+
+    header img {
+        width: 100px;
+        height: auto;
+    }
+
+    h1 { 
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+/* -------navigation bar---------------- */
+ 
+.menubar {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+nav ul li a {
+        border-top: none;
+    }
+
+    nav a {
+        font-size: .9rem;
+    }
+
+    .navigation {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    
+    .navigation a {
+        text-align:center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+   
+/* -------town pages---------------- */
+
+    .herodiv {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .heropic {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+       
+    .home picture {
+        margin-top: 500px;
+    }
+    
+    .events {
+        background-color: var(--darkblue);
+        color: var(--white);
+        padding: 1rem;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        border: 5px solid var(--yellow);
+        max-width: 600px;
+        box-shadow: 5px 5px 10px var(--darkgrey);
+    }
+    
+    .events h3 {
+        font-size: 1.5rem;
+    }
+    
+    .events p {
+        font-size: 16pt;
+    
+    }  
+
+    .articlebox {
+        max-width: 700px;
+    }
+
+    .articlebox-fishhaven {
+        display: block;
+        max-width: 90%;
+    }
+
+    .articlebox img {
+        max-width: 90%;
+        height: auto;
+        float: right;
+        padding: 1rem;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .articlebox-fishhaven img {
+        float: left;
+        width: 40%;
+        height: auto;
+        padding: 1rem;
+        margin-top: 10px;
+    }
+
+    .article p {
+        padding: .5rem;
+        font-size: 14pt;
+    }
+
+    .articlebox h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        text-align: left;
+        padding: .5rem;
+    }
+
+    .articlebox-fishhaven h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        text-align: left;
+        padding: .5rem;
+    }
+
+    .announcement {
+        max-width: 90%;
+    }
+
+    .announcement h3 {
+        font-size: 1.5rem;
+    }
+
+    .announcement h4 {
+        font-size: 1.25rem;
+        color: var(--blue);
+        text-align: center;
+    }
+
+    /* -------gallery page---------------- */
+
+    .weathergallery {
+        max-width: 767px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .locationinfo {
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr; 
+        margin-top: 20px;
+    }
+
+    figure {
+        box-shadow: 10px 5px 5px var(--darkgrey);
+    }
+
+    figure img {
+        padding:0;
+        width: 100%;
+    }
+
+/* -------storm center page---------------- */
+
+    main form {
+        width: 500px;
+    }
+
+    .googlemap {
+        margin-left: 2rem;
+    }
+    
+    .contactinfo {
+        text-align: left;
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .radio {
+        display: flex;
+        flex-direction: row;
+    }
+
+/* -------thank you page---------------- */
+
+    .thankyou {
+        font-size: 16pt;
+        max-width: 500px;
+        box-shadow: 10px 10px 20px var(--darkgrey);
+    }
+
+/* -------home page---------------- */
+
+    #home {
+        background-color: var(--white);
+        margin: 0 auto;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .homeherodiv{
+        margin-top: -20px;
+    }
+
+    .towninfo {
+        max-width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+        background-color: var(--white);
+	    display: flex;
+	    flex-wrap: wrap;
+    }
+
+    .towninfo div {
+        background-color: var(--darkblue);
+    }
+    
+
+    .towninfo div h2 {
+        font-size: 18pt;
+        margin-bottom:  0;
+        background-color: var(--darkblue);
+        color: var(--white);
+        padding-top: 1rem;
+    }
+
+    .towninfo div h3 {
+        background-color: var(--darkblue);
+    }
+    
+    .towninfo div p {
+        background-color: var(--darkblue);
+        color: var(--white);
+
+    }
+    .towninfo section {
+        background-color: var(--darkblue);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        box-shadow: 5px 5px 10px var(--darkgrey);
+      }
+      
+      .towninfo section:nth-child(even) {
+          flex-direction: row-reverse;
+      }
+
+      .towninfo section:hover {
+        box-shadow: 10px 10px 10px var(--yellow); 
+      }
+
+      .towninfo img {
+          width: 50%;
+          padding: 1rem;
+          background-color: var(--darkblue);
+          margin: 0 auto;
+      }
+      .towninfo div {
+          width: 50%;
+      }
+
+    #homearticle {
+        width:90%;
+    }
+
+    #homearticle img {
+        max-width: 50%;
+        float: right;
+        padding: 1rem;    
+    }
+
+    #homearticle h3 {
+        margin-top: -10px;
+    }
+
+    #homearticle h4 {
+        text-align: left;
+        padding: 0 0 0 1rem;
+    }
+
+    #homearticle p {
+        font-size: 14pt;
+        padding-top: 0;
+    }
+
+/* -------footer---------------- */
+
+    .contactinfo {
+        display: inline;
+        
+    }
+
+    .footerlogo {
+        align-self: right;
+        justify-self: end;
+    }
+
+   
+
+    .contact {
+        border-bottom: none;
+    }
+
+    .contact p {
+        text-align: left;
+    }
+
+    .address p {
+        text-align: left;
+        padding: 1rem;
+    }
+
+    .address {
+        border-right: 2px solid var(--white);
+    }
+}

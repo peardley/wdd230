@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooele County Chamber of Commerce</title>
+    <meta name="description" content="This site is a chamber of commerce page for the Tooele County, Utah residence. 
+    The purpose of this site is to help community members create a thriving business community that will increase 
+    the quality of life for the residences of Tooele County.  This site will be a place where members can help build a 
+    community they are proud of and support services that will help Tooele County be a place members love to raise their 
+    families. The site will be a way to promote local businesses, give information about the city of Tooele, and share 
+    some of Tooele City amenities and attractions. A list of upcoming events and local weather information will help 
+    viewers be in the know so they can be more involved in the community. Social media links, contact information, a map, 
+    and membership sign-up will help increase the site and chamber visibility and use. ">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+    <script defer src="js/weatherapi.js"></script>
+    <script defer src="js/togglemenu.js"></script>
+    <script defer src="js/modify.js"></script>    
+</head>
+<body>
+     <header>        
+        <div class="logo">
+            <picture>
+                <img src="images/logo7.png" alt="tooele city icon">
+            </picture>
+            <div class="logoheading">
+                <h1 class="tooeleheading">tooele county</h1>
+                <h1 class="chamber"><b>CHAMBER</b></h1>
+            </div>
+        </div>
+        <div class="menubar">
+            <div class=socialbar>
+                <ul class="social-links">
+                    <li class="facebook">
+                        <a href="https://facebook.com"><img src="images/facebookicon.png" alt="facebook icon"></a>
+                    </li>
+                    <li class="twitter"> 
+                        <a href="https://twitter.com"><img src="images/twittericon.png" alt="twitter icon"></a>
+                    </li>
+                    <li class="instagram">
+                    <a href="https://instagram.com"><img src="images/instagramicon.png" alt="instagram icon"></a>
+                    </li>
+                </ul>
+                <input type="button" value="Join Now" class="joinbutton">
+            </div> 
+
+            <div class="navigationbar">
+                <nav>
+                <ul class="navigation responsive">
+                    <li><a class="ham" href="#">&#9776; MENU</a></li>
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="tooele.html">TOOELE CITY</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                    <li><a href="directory.html">DIRECTORY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav> 
+            </div>
+        </div>
+    </header>  
+    <main id="home">
+        
+            <picture class="homepagehero">
+                <source media="(max-width: 499px)" srcset="images/townherosmall.jpg">
+                <source media="(min-width: 500px) and (max-width: 799px)"srcset="images/townheromedium.jpg">
+                <source media="(min-width: 800px)" srcset="images/townherolarge.jpg">
+                <img class ="heropic" src="images/townherosmall.jpg" alt="angled view of downtown shops">
+            </picture>
+         
+        <section class="purpose">
+            <h2>Our Purpose</h2>
+            <picture>
+                <img class="townimg" src="images/homeherosmall.jpg" alt="downtown tooele">
+            </picture>
+            <p>To work as a community to create a thriving business environment that will increase the quality of life for 
+                the residences of Tooele County.  We want to build a community where members love to live and raise their families. 
+                We work towards promoting local businesses, amenities and attractions to help boost Tooele's economic outlook and prosperity.
+                We provide announcements of upcoming events and local weather information to help residences and business owners
+                be more aware and involved. 
+            </p>  
+        </section>
+        <div class="localadvertisement">
+            <section class="ad">
+                <div>
+                    <h3>Another Man's Treasures</h3>
+                    <h4>Buy, Sell, and Consign Antiques</h4>
+                    <p>14 West Vine St</p>
+                    <p>(435)249-0742</p>
+                    <p>Tues-Sat 10AM-6PM</p>
+                </div>
+                <img src="images/anothermanstreasure.jpg" alt="Another Man's Treasure store front">
+            </section>
+            <section class="ad">
+                <div>
+                    <h3>Vintage Barn</h3>
+                    <h4>Home Furnishings</h4>
+                    <p>36 N Main St Suite 8</p>
+                    <p>(435)241-4055</p>
+                    <p> Mon-Sat 10AM-6PM</p>
+                </div>
+                <img src="images/vintagebarn.jpg" alt="vintage barn store front">
+            </section>
+            <section class="ad">
+                <div>
+                    <h3>Zacatecas Market</h3>
+                    <h4>Mexican Market</h4>
+                    <p>2 North Main St.</p>
+                    <p>(435)833-9075</p>
+                    <p>Sun-Sat 8AM-10PM</p>
+                </div>
+                <img src="images/zacatecas.jpg" alt="zacatecas store front">
+            </section>
+        </div>
+        <section class="events">
+            <h2>Upcoming Events</h2>
+                <p><b>January 5, 2022-</b> Tooele City Council Meeting</p>
+                <p><b>January 19, 2022- </b>Chamber Luncheon</p>
+                <p><b>July 4, 2022-</b> Tooele Kiwanis Club 5k Freedom Run</p>
+                <p><b>July 27, 2022- </b>Country Fan Festival</p>
+                <p><b>August 3-7, 2022-</b> Tooele County Fair</p>
+        </section>
+        <section class="weather">
+            <h2>Local Weather</h2>
+            <div class="weathersummary">
+                <p><b>Currently:</b> <span id="desc"></span></p>
+                <p><b>Temperature:</b> <span id="current-temp"></span></p>
+                <p><b>Humidity:</b>  <span id="humidity"></span></p>
+            </div>
+            <h3>Three Day Forecast</h3>
+            <div class="threedayforecast">
+                <div class="day">
+                    <h3><span id="day1"></span></h3>
+                    <img id="forecastimg1">
+                    <p><span id="forecasttemp1"></span></p>                    
+                </div>
+                <div class="day">
+                    <h3><span id="day2"></span></h3>
+                    <img id="forecastimg2">
+                    <p><span id="forecasttemp2"></span></p>                    
+                </div>
+                <div class="day">
+                    <h3><span id="day3"></span></h3>
+                    <img id="forecastimg3">
+                    <p><span id="forecasttemp3"></span></p>                    
+                </div>
+
+            </div>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <div class="contactinfo">
+            <div class="footerlogo">
+                <picture><img src="images/logo7.png"></picture>
+            </div>
+            <div class="address">
+                <p>Tooele Chamber of Commerce<br>
+                154 South Main Street<br>
+                Tooele, UT 84074<br>
+            </div>
+            <div class="contact">
+                <p>&#9742; (435)882-0690<br>
+                &#128231;chamber@tooelechamber.com</p>
+            </div>
+        </div>
+        <div class="bottomfooter">
+            <p>&copy;<span id="copyrightyear"></span> Tooele Chamber of Commerce | Attributions | Last modified: <span id="modify"></span></p>
+        </div>
+    </footer>   
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>
+        WebFont.load({google: {families: ['Montserrat', 'Barlow Condensed']}});
+    </script>
+</body>
+</html>
