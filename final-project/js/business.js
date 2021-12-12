@@ -23,6 +23,7 @@ fetch(requestURL)
         address.textContent = `${business[i].address}`;
         phone.textContent = `${business[i].phonenumber}`;
         website.textContent = `${business[i].website}`;
+        website.setAttribute('a', `https://${business[i].website}`);
 
         card.appendChild(img);
         card.appendChild(h3);
