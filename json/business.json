@@ -5,56 +5,56 @@
         "address": "112 S 100 W",
         "phonenumber": "(435)843-0225",
         "website": "www.genesisdental.com",
-        "logo": https://genesisdental.com/wp-content/uploads/2020/02/Gen-Dental-New-Logo-without-tagline-2-583x400.png"
+        "logo": "https://peardley.github.io/wdd230/final-project/images/dental.png"
       },
       {
         "name": "Crystal Water Float Spa",
         "address": "40 W Vine St",
         "phonenumber": "(435)882-1339",
         "website": "www.crystalwaterfloat.com",
-        "logo": "https://crystalwaterfloat.com/wp-content/uploads/2020/01/CrsytalSpaVector_200.png"
+        "logo": "https://peardley.github.io/wdd230/final-project/images/floatspa.png"
       },
       {
         "name": "Tooele Valley Bicycle",
         "address": "3965 UT-36",
         "phonenumber": "(435)241-8133",
         "website": "www.tooelevalleybicycle.com",
-        "logo": "https://img1.wsimg.com/isteam/ip/aba30ce5-f08a-4964-84e3-faff9e857c2b/logo/4a016242-3c45-4a6b-8983-48bb3acf89ea.png/:/rs=w:80,h:80,cg:true,m/cr=w:80,h:80/qt=q:95"
+        "logo": "https://peardley.github.io/wdd230/final-project/images/bike.jpg"
       },
       {
         "name": "Birch Family Pharmacy",
         "address": "493 N Main St",
         "phonenumber": "(435)882-7775",
         "website": "www.birchfamilyrx.com",
-        "logo": "https://static.wixstatic.com/media/8c10bc_949f2ae7442b4a61a63cf0faf8dc20e3~mv2.jpg/v1/fill/w_221,h_41,al_c,q_80,usm_0.66_1.00_0.01/Birch%20Family%20Pharmacy%20Logo.webp"
+        "logo": "https://peardley.github.io/wdd230/final-project/images/birchlogo.jpg"
       },
       {
         "name": "Guzzle",
         "address": "188 W 1180 N",
         "phonenumber": "(435)843-2436",
         "website": "www.guzzlesoda.com",
-        "logo": "http://www.guzzlesoda.com/uploads/1/1/9/5/119554547/editor/untitled.jpg?1528674033"
+        "logo": "https://peardley.github.io/wdd230/final-project/images/guzzle.jpg"
       },
       {
         "name": "All Star Bowling",
         "address": "1111 N 200 W St",
         "phonenumber": "(435)882-5450",
         "website": "www.allstarbowlingandentertainment.com",
-        "logo": "https://allstarbowlingandentertainment.com/wp-content/uploads/2019/07/all-star-logo.png"
+        "logo": "https://peardley.github.io/wdd230/final-project/images/all-star-logo.png"
       },
       {
         "name": "Osaka Sushi",
         "address": "996 N Main St",
         "phonenumber": "(435)833-9123",
         "website": "www.osakasushiutah.com",
-        "logo": "https://static.wixstatic.com/media/60ba62_6cd6e1a00f93426496231fc02dfacba7~mv2_d_2504_2504_s_4_2.jpg/v1/fill/w_151,h_151,al_c,q_80,usm_0.66_1.00_0.01/60ba62_6cd6e1a00f93426496231fc02dfacba7~mv2_d_2504_2504_s_4_2.webp"
+        "logo": "https://peardley.github.io/wdd230/final-project/images/osaka.jpg"
       },
       {
         "name": "Countryside Animal Clinic",
         "address": "254 S Main St",
         "phonenumber": "(435)882-4100",
         "website": "www.countrysideanimalclinictooele.com",
-        "logo": "http://www.countrysideanimalclinictooele.com/uploads/1/0/9/5/109590125/published/primary-logo-light.png?1596293861"
-      },
+        "logo": "https://peardley.github.io/wdd230/final-project/images/countryside.jpg"
+      }
     ]
   }
