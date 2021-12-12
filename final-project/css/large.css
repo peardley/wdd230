@@ -1,7 +1,7 @@
 @media only screen and (min-width: 850px) {
 	
     body, footer, header, main {
-        max-width: 1200px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -25,7 +25,7 @@
     
     header div.logo {
         max-width: 300px;
-        }
+    }
     
     header div.logo picture {
         max-width: 250px;
@@ -120,93 +120,136 @@
 
 /*---------home page----------*/
 
-.purpose picture img {
-    float: left;
-    width: 300px;
-    padding: 1rem 1rem .5rem 1rem;
-}
+    .purpose picture img {
+        float: left;
+        width: 300px;
+        padding: 1rem 1rem .5rem 1rem;
+    }
 
-.localadvertisement {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.localadvertisement section {
-    max-width: 275px;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
+    .localadvertisement {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 
-.localadvertisement section:nth-child(even) {
-    max-width: 275px;
-    display: flex;
-    flex-direction: column;
-  }
+    .localadvertisement section {
+        max-width: 275px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
 
-.localadvertisement div h3 {
-    font-size: 1.25rem;
-}
+    .localadvertisement section:nth-child(even) {
+        max-width: 275px;
+        display: flex;
+        flex-direction: column;
+    }
 
-.localadvertisement div h4 {
-    font-size: 1rem;
-}
+    .localadvertisement div h3 {
+        font-size: 1.25rem;
+    }
 
-.localadvertisement p {
-    font-size: 12pt;
-    padding: 0;
-    line-height: .5;
-}
+    .localadvertisement div h4 {
+        font-size: 1rem;
+    }
 
-.localadvertisement img {
-    width: 100%;
-    padding: 0;
-  }
-.localadvertisement div {
-    width: 100%;
-  }
+    .localadvertisement p {
+        font-size: 12pt;
+        padding: 0;
+        line-height: .5;
+    }
 
-.ad {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: .5rem 1rem 1rem 1rem;
-    width: 300px;
-}
+    .localadvertisement img {
+        width: 100%;
+        padding: 0;
+    }
 
-.weather {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20px 1fr;
-}
+    .localadvertisement div {
+        width: 100%;
+    }
 
-.weather h2 {
-    grid-column: 1;
-    grid-row: 1;
-}
+    .ad {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: .5rem 1rem 1rem 1rem;
+        width: 300px;
+    }
 
-.weather h3 {
-    grid-column: 2;
-    grid-row: 1;
-}
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20px 1fr;
+    }
 
-.weathersummary {
-    grid-column: 1;
-    grid-row: 2;
-}
+    .weather h2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
 
-.threedayforecast {
-    grid-column: 2;
-    grid-row: 2;
-    width: 100%;
-}
+    .weather h3 {
+        grid-column: 2;
+        grid-row: 1;
+    }
 
-/*----------join page-----------*/
-form {
-    width: 60%;
-}
+    .weathersummary {
+        grid-column: 1;
+        grid-row: 2;
+    }
 
+    .threedayforecast {
+        grid-column: 2;
+        grid-row: 2;
+        width: 100%;
+    }
+
+    /*----------join page-----------*/
+
+    form {
+        max-width: 100%;
+    }
+
+    #join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #levels {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+/*-------contact page---------*/
+
+    #largeview {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+
+    #contactpage {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+    }
+
+    #directors {
+        text-align: left;
+    }
+
+    .locationinfo h3{
+        margin-top: -45px; 
+        background-color: var(--white);
+        padding: 0;
+        width: 100%;
+     }
 
 /*--------footer--------------*/
 

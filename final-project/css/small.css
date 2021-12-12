@@ -30,20 +30,20 @@ header, footer, nav {
     max-width: 100%;
 }
 
-  body {
-    font-size: 14pt;
+body {
+    font-size: 12pt;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     line-height: 1.5;
     height: 100%;
     background-color: var(--white);
     color: var(--black);
-    width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 1rem;
 }
 
 header, footer, nav {
-    max-width: 500px;
+    max-width: 100%;
     padding: 0;
 }
 
@@ -51,14 +51,19 @@ h1 h2 h3 h4 {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 p {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
 }
 
 header {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -224,13 +229,13 @@ nav a:hover {
 }
 
 .home picture {
-    width: 500px;
+    max-width: 500px;
 }
 
 /* ---------home page--------------*/
 
 .homepagehero {
-    max-width: 500px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -245,12 +250,12 @@ nav a:hover {
     padding: 1rem;
     margin: 0 auto;
     border-radius: 15px;
-    max-width: 100%;
+    max-width: 90%;
     height: 100%;
 }
 
 .purpose picture img {
-    width: 100%;
+    max-width: 100%;
     padding: 0;
     border-radius: 15px;
     margin-top: -10px;
@@ -258,7 +263,6 @@ nav a:hover {
 }
 
 .purpose h2 {
-    font-size: 2rem;
     padding-left: 1rem;
     margin-top: -2.25rem;
     background-color: var(--white);
@@ -285,7 +289,7 @@ nav a:hover {
     border: 2px solid var(--black);
     margin-top: 40px;
     border-radius: 15px;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     line-height: 1;
     background-color: var(--yellow);
@@ -313,7 +317,7 @@ nav a:hover {
 
 .ad img{
     background-color: white;
-    width: 100%;
+    max-width: 100%;
     border-radius: 0 0 15px 15px;
     border-top: 2px solid var(--black);
     margin: 0 auto;
@@ -344,7 +348,6 @@ nav a:hover {
 
 .weather h2 {
     grid-row: 1;
-    font-size: 2rem;
     margin-top: -40px;
     background-color: white;
     width: 260px;
@@ -423,7 +426,6 @@ nav a:hover {
 }
 
 .weather h2 {
-    font-size: 2rem;
     text-align: left;
     margin: 0 auto;
     margin-top: -40px;
@@ -492,21 +494,28 @@ nav a:hover {
     margin-bottom: 0;
 }
 /*-------join-----------*/
+
+#join h4 {
+    margin: 0;
+}
+
+#join h5 {
+    margin: 5px 0 0 10px;
+}
+
 .pageheader {
     background-color: var(--darkgrey);
     color: var(--white);
-    width: 100%; 
+    max-width: 100%; 
     padding: 2rem;
     margin-top: 0;
 }
 
-form {
+.application {
     display: flex;
     flex-direction: column;
     clear: both;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
 }
 
 form label {
@@ -519,9 +528,10 @@ form .form {
     background-color: var(--white);
     margin-bottom: 2rem;
     color: var(--black);
-    padding: 2rem;
+    padding: 1rem;
     border: 2px solid var(--red);
     border-radius: 15px;
+    max-width: 100%;
 }
 
 fieldset h3 {
@@ -566,9 +576,109 @@ form textarea {
 }
 
 #submit:hover {
-    background-color: var(--blue);
-    color: var(--darkblue);
-  }
+    background-color: var(--darkgrey);
+    color: var(--white);
+}
+
+#level1 {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+#level2 {
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+#level3 {
+    background-color: var(--darkgrey);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+#level4 {
+    background-color: var(--yellow);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+/*-----contact page-----*/
+
+#directors {
+    display: block;
+    background-color: var(--yellow);
+    color: var(--white);
+    padding: 1rem;
+    margin-top: 40px;
+    border-radius: 15px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+#directors h3 {
+    font-size: 1.5rem;
+}
+
+#directors h4 {
+    margin-bottom: 0;
+}
+#directors p {
+    padding-left: 1rem;
+    margin-top: -5px;
+}
+
+.locationinfo {
+    padding: 1rem;
+    border: 2px solid var(--red);
+    border-radius: 15px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.locationinfo h3{
+   margin-top: -45px; 
+   background-color: var(--white);
+   padding: 0;
+   max-width: 100%;
+}
+
+.contactinfo {
+    max-width: 100%;
+    line-height: 1;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contactinfo p {
+    padding: 0;
+    margin: 5px auto;
+}
+
+.googlemap {
+    max-width: 100%;
+}
+
+.googlemap img {
+    max-width: 100%;
+}
+
+#application h3 {
+    background-color: var(--white);
+    padding-left: 1rem;
+    margin-top: -30px;
+    text-align: left;
+}
 
 /*-----footer----------*/
 
