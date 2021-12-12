@@ -1,11 +1,32 @@
 {
     "business": [
-      {
+        {
+        "name": "All Star Bowling",
+        "address": "1111 N 200 W St",
+        "phonenumber": "(435)882-5450",
+        "website": "www.allstarbowlingandentertainment.com",
+        "logo": "https://peardley.github.io/wdd230/final-project/images/all-star-logo.png"
+      },  
+        {
+        "name": "Birch Family Pharmacy",
+        "address": "493 N Main St",
+        "phonenumber": "(435)882-7775",
+        "website": "www.birchfamilyrx.com",
+        "logo": "https://peardley.github.io/wdd230/final-project/images/birchlogo.jpg"
+      }, 
+        {
         "name": "Bright Smiles",
         "address": "112 S 100 W",
         "phonenumber": "(435)843-0225",
         "website": "www.genesisdental.com",
         "logo": "https://peardley.github.io/wdd230/final-project/images/dental.png"
+      },
+      {
+        "name": "Countryside Animal Clinic",
+        "address": "254 S Main St",
+        "phonenumber": "(435)882-4100",
+        "website": "www.countrysideanimalclinictooele.com",
+        "logo": "https://peardley.github.io/wdd230/final-project/images/countryside.jpg"
       },
       {
         "name": "Crystal Water Float Spa",
@@ -15,32 +36,11 @@
         "logo": "https://peardley.github.io/wdd230/final-project/images/floatspa.png"
       },
       {
-        "name": "Tooele Valley Bicycle",
-        "address": "3965 UT-36",
-        "phonenumber": "(435)241-8133",
-        "website": "www.tooelevalleybicycle.com",
-        "logo": "https://peardley.github.io/wdd230/final-project/images/bike.jpg"
-      },
-      {
-        "name": "Birch Family Pharmacy",
-        "address": "493 N Main St",
-        "phonenumber": "(435)882-7775",
-        "website": "www.birchfamilyrx.com",
-        "logo": "https://peardley.github.io/wdd230/final-project/images/birchlogo.jpg"
-      },
-      {
         "name": "Guzzle",
         "address": "188 W 1180 N",
         "phonenumber": "(435)843-2436",
         "website": "www.guzzlesoda.com",
         "logo": "https://peardley.github.io/wdd230/final-project/images/guzzle.jpg"
-      },
-      {
-        "name": "All Star Bowling",
-        "address": "1111 N 200 W St",
-        "phonenumber": "(435)882-5450",
-        "website": "www.allstarbowlingandentertainment.com",
-        "logo": "https://peardley.github.io/wdd230/final-project/images/all-star-logo.png"
       },
       {
         "name": "Osaka Sushi",
@@ -50,11 +50,11 @@
         "logo": "https://peardley.github.io/wdd230/final-project/images/osaka.jpg"
       },
       {
-        "name": "Countryside Animal Clinic",
-        "address": "254 S Main St",
-        "phonenumber": "(435)882-4100",
-        "website": "www.countrysideanimalclinictooele.com",
-        "logo": "https://peardley.github.io/wdd230/final-project/images/countryside.jpg"
+        "name": "Tooele Valley Bicycle",
+        "address": "3965 UT-36",
+        "phonenumber": "(435)241-8133",
+        "website": "www.tooelevalleybicycle.com",
+        "logo": "https://peardley.github.io/wdd230/final-project/images/bike.jpg"
       }
     ]
   }
