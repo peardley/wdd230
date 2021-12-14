@@ -29,7 +29,7 @@
     }
     
     header div.logo {
-        max-width: 300px;
+        max-width: 400px;
     }
     
     header div.logo picture {
@@ -60,26 +60,35 @@
         padding-bottom: 0;
         align-content: flex-end;
     }
+
+    .socialbar img {
+        max-width: 50%;
+        margin-right: 20px;
+    }
+
+    .socialbar button {
+        box-shadow: none;
+        position: absolute;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        top:15px;
+        right: 20px;
+    }
         
     .socialbar ul {
-        margin: 0 auto;
+        margin-right: 100px;
         padding-top: 0;
         padding-bottom: 0;
+        max-width: 200px;
     }
 
     .social ul li {
         align-self: right;
     }
-    
-    .socialbar img {
-        width: 35px;
-        padding: 0;
-    }
                 
     .joinbutton {
         margin-top: 1rem;
         font-size: 18pt;
-     
     }
 
     .navigationbar {

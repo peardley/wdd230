@@ -124,51 +124,47 @@ header div.logo picture {
 .socialbar {
     display: flex;
     flex-direction: row;
-    padding: 0;
+    padding: .5rem;
     max-width: 100%;
+    align-content: center;
+    justify-content: center;
 }
 
 .socialbar ul {
     display:flex;
-    max-width: 100%;
     flex-direction: row;
-    margin: auto;
+    padding-right: .5rem;
 }
 
 .socialbar img {
-    max-width: 45px;
+    padding: .5rem;
+    max-width: 80%;
 }
 
 .socialbar button {
-    padding-left: 1rem;
-}
-
-.social-links {
-    padding-right: 1.5rem;
+    display: block;
+    cursor: pointer;
+    padding: 1rem 1.25rem;
     max-width: 100%;
-    align-items: flex-end;
-}
-
-ul.social-links li {
-    list-style-type: none;
-    line-height: 1;
-    padding: .5rem;
-    align-items: flex-end;
-    overflow: hidden;
-}
-
-.joinbutton {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    align-items: flex-end;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1rem;
+    margin: auto;
     border-radius: 15px;
     background-color: var(--yellow);
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 14pt;
     box-shadow: 5px 5px 10px var(--darkgrey);
+}
+
+button a {
+    text-decoration: none;
+}
+
+.social-links {
+    display: block;
+    margin: auto;
+    list-style-type: none;
+    line-height: 1;
+    padding: 0;
+    max-width: 50%;
 }
 
 nav ul {
@@ -241,12 +237,12 @@ nav a:hover {
 
 .homepagehero {
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .homepagehero img {
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 2rem;
 }
 
@@ -297,19 +293,21 @@ nav a:hover {
     max-width: 100%;
     text-align: center;
     line-height: 1;
-    background-color: var(--yellow);
+    background-color: var(--black);
+    color: var(--white);
     box-shadow: 5px 5px 10px var(--darkgrey);
 }
 
 .ad h3 {
     font-size: 1.5rem;
+    padding-top: 1rem;
 }
 
 .ad h4 {
     font-size: 1.1rem;
     margin-top: -15px;
-    color: var(--red);
-    border-bottom: 2px solid var(--black);
+    color: var(--yellow);
+    border-bottom: .5px solid var(--darkgrey);
     padding: .5rem;
 }
 
@@ -339,6 +337,7 @@ nav a:hover {
 
 .events h2 {
     padding-top: 0;
+    margin-top: 10px;
 }
 
 .threedayforecast h3 {

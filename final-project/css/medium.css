@@ -20,36 +20,49 @@
         font-size: 1.3rem;
     }
 
-    .sociallink {
-        max-width: 50%;
-
+    p {
+        font-size: 14pt;
     }
 
-    .joinbutton {
-        max-width: 400px;
-        margin-left: 0;
-        padding-right: 2rem;
-        padding-left: 2rem;
-
+    .socialbar img {
+        max-width: 45%;
+    }
+    .socialbar button {
+        margin-right: 15px;
     }
 
     /*--------home page--------*/
 
     .homepagehero {
-        max-width: 800px;
+        max-width: 100%;
     }
 
+    .purpose h2 {
+        padding-left: 1rem;
+        margin-top: -2.25rem;
+        background-color: var(--white);
+        width: 230px;
+    }
+
+    .purpose img {
+        display: block;
+        margin: auto;
+    }
+
+
     .localadvertisement {
-        max-width: 750px;
+        max-width: 90%;
         height: auto;
+        margin: auto;
         padding: 1rem;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .localadvertisement div h2 {
+    .ad h3 {
         font-size: 18pt;
-        margin-bottom:  0;
+        margin-top: 20px;
+        margin-bottom:  15px;
     }
 
     .localadvertisement section {
@@ -67,7 +80,7 @@
     .localadvertisement img {
       width: 50%;
       height: 100%;
-      margin: 0 auto;
+      margin: auto;
     }
 
     .localadvertisement div {
@@ -76,12 +89,12 @@
 
     .ad img:nth-child(even) {
         border-top: none;
-        border-radius: 15px 0 0 15px;
+        border-radius: 0px 15px 15px 0;
     }
 
-    .ad img:nth-child(odd) {
+    .ad img:nth-child(2) {
         border-top: none;
-        border-radius: 0 15px 15px 0;
+        border-radius: 15px 15px 15px 15px;
     }
 
     .events {
