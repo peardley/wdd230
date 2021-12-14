@@ -15,7 +15,7 @@ fetch(requestURL)
         let h3 = document.createElement('h3');
         let address = document.createElement('p');
         let phone = document.createElement('p');
-        let website = document.createElement('p');
+        let website = document.createElement('a');
         
         img.setAttribute('src', business[i].logo);
         img.setAttribute('alt', `${business[i].name} logo`);
@@ -23,7 +23,7 @@ fetch(requestURL)
         address.textContent = `${business[i].address}`;
         phone.textContent = `${business[i].phonenumber}`;
         website.textContent = `${business[i].website}`;
-        website.setAttribute('a', `https://${business[i].website}`);
+        website.setAttribute('href', `https://${business[i].website}`);
 
         card.appendChild(img);
         card.appendChild(h3);

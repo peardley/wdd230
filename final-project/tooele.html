@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/medium.css"/>
     <link rel="stylesheet" href="css/large.css"/>
     <script defer src="js/togglemenu.js"></script>
+    <script defer src="js/lazyload"></script>
     <script defer src="js/modify.js"></script>    
 </head>
 <body>
@@ -41,7 +42,7 @@
                     <a href="https://instagram.com"><img src="images/instagramicon.png" alt="instagram icon"></a>
                     </li>
                 </ul>
-                <input type="button" value="Join Now" class="joinbutton">
+                <a href="join.html"><button class="joinbutton">Join Now</button></a> 
             </div> 
 
             <div class="navigationbar">
@@ -58,71 +59,102 @@
             </div>
         </div>
     </header> 
-    <main id="home">
+    <main>
         <div class="homeherodiv">
             <picture>
-            <source srcset="images/downtown.jpg" media="(min-width: 500px) and (max-width: 799px)">
-            <source srcset="images/downtown.jpg" media="(min-width: 800px)">
-            <img class ="heropic" src="images/downtown.jpg" alt="man walking with umbrella in the rain on mountain trail">
+            <source srcset="images/homeheromedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+            <source srcset="images/homeherolarge.jpg" media="(min-width: 800px)">
+            <img class ="heropic" src="images/homeherosmall.jpg" alt="statue of miltary man and dog in Tooele town center">
             </picture>
-            <h2 class="welcome">Welcome!</h2>
-        </div>  
-        <div class="demographics">
-            <h3>Tooele City</h3>
-            <p><b>Population:</b> 34,535</p>
-            <p><b>Elevation: 5,043</b></p>
-            <p><b>Sister Cities:</b>Russia Kambarka, Russia
-                Spain La Bañeza, Spain</p>
-            <p><b></b></p>
+        </div> 
 
-        </div>
-        <div class="photo-history">
-            <h3>Historic Tooele City</h3>
-            <p></p>
-            <div class=weathergallery>
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather1.jpg" alt="clouds at sunset">
-                    <figcaption>Cumulonimbus cloud over Preston</figcaption>
-                </figure>
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather2.jpg" alt="">
-                    <figcaption>Lightening strike near Bear River</figcaption>
-                </figure>
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather3.jpg" alt="">
-                    <figcaption>Light snow along Highway 36</figcaption>
-                </figure>            
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather4.jpg" alt="">
-                    <figcaption>Storm sweeping across Foster Valley</figcaption>
-                </figure>
-                
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather5.jpg" alt="">
-                    <figcaption>Snow piling up along Lamont Reservoir</figcaption>
-                </figure>
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather6.jpg" alt="">
-                    <figcaption>Arching rainbow over Glendale Ranch</figcaption>
-                </figure>
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather7.jpg" alt="">
-                    <figcaption>Downtown Preston on rainy day</figcaption>
-                </figure>
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2.png" data-src="images/weather8.jpg" alt="">
-                    <figcaption>Sunny Day over Foster Reservoir</figcaption>
-                </figure>
-                <figure>
-                    <img class="galleryphoto" src="images/placeholder2f.png" data-src="images/weather9.jpg" alt="">
-                    <figcaption>Winds picking up outside of Preston</figcaption>
-                </figure>
-        </div>        
+        <h2 class="pageheader">Tooele City</h2> 
+            <div class="tooelepage">
+                <section id="abouttooele">
+                    <div id="facts">
+                        <h3>Fun Facts</h3>
+                        <ul>
+                            <li><b>Population:</b> 34,535</li>
+                            <li><b>Elevation:</b> 5,043</li>
+                            <li><b>Area:</b> 21.2 square miles (54.8 km²)</li>
+                            <li><b>Pronunciation:</b> too-wil-ə</li>
+                            <li><b>Sister Cities:</b> Kambarka, Russia and La Bañeza, Spain</li>
+                            <li><b>County:</b> Tooele</li>
+                            <li><b>Location: </b> Western slope of the Oquirrh Mountains 
+                                in the Tooele Valley approximately 30 minutes southwest of Salt Lake City, UT.</li>
+                        </ul>
+                    </div>
+                    <div id="todo">
+                        <h3>Things to do</h3>
+                        <ul>
+                            <li>Deseret Peak Complex</li>
+                            <li>Bonniville Salt Flats</li>
+                            <li>Utah Motorsports Campus</li>
+                            <li>Golf</li>
+                            <li>Historic Sites</li>
+                            <li>Canyons and Outdoor Recreation</li>
+                            <li>Skydiving</li>
+                            <li>Sea Base (Scuba Diving)</li>
+                            <li>Great Salt Lake</li>
+                            <li>Kennecott Copper Mine</li>
+                        </ul>
+                        <p>To learn more visit: <a href="https://utah.com/tooele">utah.com/tooele</a></p>
+                    </div>
+                    <div id="events">
+                        <h3>Local Events</h3>
+                        <ul>
+                            <li>December 17, 2021: THS Varsity Boys Basketball game</li>
+                            <li>January 4, 2022: THS Varsity Boys Basketball game</li>
+                            <li>January 5, 2022: THS Varsity Girls Basketball game</li>
+                            <li>January 11, 2022: Guiding Good Choices FREE Parenting & Family Workshops</li>
+                        </ul>
+                    </div> 
+                </section>
 
-        </div>
-        
-        
+                <div class="history">
+                    <h3>Historic Tooele City</h3>
+                    <div class=photogallery>
+                        <figure>
+                            <img class="galleryphoto" src="images/placeholder.png" data-src="images/courthouse.jpg" alt="historic courthouse">
+                            <figcaption>Historic Courthouse</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="galleryphoto" src="images/placeholder.png" data-src="images/train.jpg" alt="Old steam train at Tooele Train museum">
+                            <figcaption>Tooele Train Museum</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="galleryphoto" src="images/placeholder.png" data-src="images/bell.jpg" alt="Old church bell">
+                            <figcaption>1870 church bell</figcaption>
+                        </figure>            
+                        <figure>
+                            <img class="galleryphoto" src="images/placeholder.png" data-src="images/logcabin.jpg" alt="old pioneer cabin">
+                            <figcaption>Original log cabins</figcaption>
+                        </figure>
+                    </div> 
+                    <article>
+                        <p>The Tooele Valley had no permanent settlement when Mormon pioneers entered the Great Salt Lake Valley in July 1847; 
+                        it was covered with abundant tall grass. The Mormons first used the valley as wintering grounds for their herds. 
+                        In September 1849, three families settled on a small stream south of present Tooele City. Other families slowly joined them, 
+                        and by 1853 Tooele City Corporation was organized.</p>
+                        <p>During the nineteenth century, the town was primarily an agricultural community; its population was about 1,200 at the turn of the century.</p>
+                        <p>The 20th century brought more industrialization; in 1905 the Los Angeles and Salt Lake Railroad built a line through the city, and in 1909 a 
+                            smelter was built in Carr Fork Canyon east of the city ("International Smelting and Refining Company"). The Tooele Valley Railway, a seven-mile 
+                            line, ran from the smelter west to the Union Pacific Railroad main line. This line brought ore from various area mines to the smelter; later a 
+                            20,000 ft aerial tramway was also used to transport ore from the mine to the smelter. By 1941 a 22,000 ft tunnel had been completed through the 
+                            mountain, to move ore to the smelter entirely underground. The smelter began processing copper in 1910, with lead and zinc processing commencing 
+                            in 1912. In 1946 the copper smelter ceased operation, the zinc operation halted in 1968, and the lead processing was halted in 1972. The entire 
+                            site was demolished during 1972-74. However, consideration was being given during this latter period to extracting ore from Carr Fork Canyon, 
+                            rather than relying on the ore from the east face of the mountain range. In 1969 the mining company began exploration drilling. In 1974 a copper 
+                            mine and mill ("Carr Fork Operations") was started; it began processing ore in 1979, and ran until 1981. The Tooele Valley Railway was used to haul 
+                            away the scrap when the International smelter was torn down, and remained to serve the Pine Canyon mill. It was shut down and abandoned when the 
+                            Pine Canyon “Carr Fork” mine and mill shut down; its last day of operation was 28 August 1982.<br>
+                            <a href="https://kids.kiddle.co/Tooele,_Utah">Click here to continue to read about the history of Tooele</a> 
+                            </p>
+                        </article>
+                </div>  
+            </div>         
     </main>
+
     <footer>
         <div class="contactinfo">
             <div class="footerlogo">

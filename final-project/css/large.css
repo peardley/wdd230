@@ -1,19 +1,24 @@
 @media only screen and (min-width: 850px) {
 	
-    body, footer, header, main {
+    body, footer, header, main, nav {
         max-width: 100%;
-        margin: 0 auto;
     }
 
     header {
         display: flex;
         flex-direction: row;
-        max-width: 100%;
-        margin: 0 auto;
+    }
+
+    .pageheader {
+        background-color: var(--red);
     }
 
     p {
         font-size: 16pt;
+    }
+
+    h3 {
+        font-size: 1.75rem;
     }
 
     header.menubar {
@@ -100,6 +105,10 @@
         font-size: 1rem;
     }
 
+    nav a:hover {
+        background-color: var(--darkgrey);
+    }
+
     .navigation {
         display: flex;
         margin-bottom: 5px;
@@ -116,6 +125,10 @@
 
     .navigation li:first-child {
         display: none;
+    }
+
+    .confirm {
+        border-top: 5px solid var(--red);
     }
 
 /*---------home page----------*/
@@ -204,10 +217,39 @@
         width: 100%;
     }
 
+
+    /*--------tooele city----------*/
+
+    .tooelepage {
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1rem;
+    }
+    #abouttooele {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        font-size: 14pt;
+    }
+    #events {
+        grid-column: 1;
+    }
+    .photogallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .history {
+        margin-top: 0;
+    }
+
     /*----------join page-----------*/
 
     form {
         max-width: 100%;
+        margin-top: 20px;
+    }
+
+    fieldset h3 {
+        font-size: 1.75rem;
+        width: 300px;
+        margin: auto;
     }
 
     #join {
@@ -224,6 +266,17 @@
         grid-template-columns: 1fr;
         max-width: 100%;
     }
+
+
+/*--------directory page------*/
+
+.cards.grid-view-filter {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .cards.grid-view-filter a {
+    font-size: 10pt;
+  }
 
 /*-------contact page---------*/
 
