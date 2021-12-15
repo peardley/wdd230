@@ -288,7 +288,7 @@ nav a:hover {
     flex-direction: column;
     margin: 0 auto;
     border: 2px solid var(--black);
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 15px;
     max-width: 100%;
     text-align: center;
@@ -331,7 +331,7 @@ nav a:hover {
     padding: 1rem;
     background-color: var(--darkgrey);
     color: var(--white);
-    margin-top: -10px;
+    margin-top: -20px;
     margin-bottom: 40px;
 }
 
@@ -365,13 +365,12 @@ nav a:hover {
     margin: auto;    
 }
 
-.day p{
+.day p {
     padding: 0;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
 }
-
 
 .weather {
     display: block;
@@ -398,7 +397,7 @@ nav a:hover {
 
 .weathersummary {
     max-width: 100%;
-    background-color: black;
+    background-color: var(--yellow);
     color: white;
     padding: 1rem;
     border-radius: 15px;
@@ -525,35 +524,53 @@ figcaption {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    margin: auto;
 }
 
-form label {
+.form label {
     padding-top: 1.5rem;
     padding-bottom: .5rem;
+    margin-left: .75rem;
 }
 
-form .form {
-    margin-bottom: 1rem;
+.form {
     background-color: var(--white);
-    margin-bottom: 2rem;
     color: var(--black);
-    padding: 1rem;
     border: 2px solid var(--red);
     border-radius: 15px;
-    max-width: 100%;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
-fieldset h3 {
-    font-size: 1.5rem;
-    padding: 0 0 1rem 0;
-    margin: 0 auto;
+#application h3 {
+    background-color: var(--white);
+    padding-left: 1rem;
+    margin-top: -25px;
+    text-align: left;
+    max-width: 120px;
 }
+
 
 form input {
-    width: 100%;
+    width: 90%;
+    height: 25px;
     margin-bottom: 1rem;
+    margin-left: .75rem;
 }
 
+#submit {
+    max-width: 80%;
+}
+    
+#application h3 {
+        background-color: var(--white);
+        padding-left: 1rem;
+        margin-top: -25px;
+        text-align: left;
+        max-width: 120px;
+}
+    
 #level, #comments {
     background-color: var(--lightgrey);
 }
@@ -561,27 +578,31 @@ form input {
 form p {
     padding: 0;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    margin-left: .75rem;
 }
 
-form textarea {
+.form textarea {
     resize: none;
-    width: 90%;
+    max-width: 90%;
     margin-bottom: 0.5rem;
-    width: 98%;
+    width: 100%;
     height: 100px;
-    box-sizing: border-box;
+    box-sizing: 90%;
+    margin-left: .75rem;
 }
 
 #submit {
     background-color: var(--yellow);
     color: var(--black);
     font-weight: bold;
-    width: 300px;
-    margin: 0 auto;
+    max-width: 300px;
+    margin: auto;
+    margin-left: .75rem;
     margin-bottom: 20px;
     padding: 1rem;
     border-radius: 8px;
+    height: 50px;
 }
 
 #submit:hover {
@@ -595,6 +616,7 @@ form textarea {
     border-radius: 15px;
     padding: 1rem;
     max-width: 100%;
+    margin-bottom: 10px;
 }
 
 #level2 {
@@ -603,6 +625,7 @@ form textarea {
     border-radius: 15px;
     padding: 1rem;
     max-width: 100%;
+    margin-bottom: 10px;
 }
 
 #level3 {
@@ -611,6 +634,7 @@ form textarea {
     border-radius: 15px;
     padding: 1rem;
     max-width: 100%;
+    margin-bottom: 10px;
 }
 
 #level4 {
@@ -619,6 +643,7 @@ form textarea {
     border-radius: 15px;
     padding: 1rem;
     max-width: 100%;
+    margin-bottom: 40px;
 }
 
 .confirmmembership {
@@ -688,6 +713,7 @@ form textarea {
 #directors h4 {
     margin-bottom: 0;
 }
+
 #directors p {
     padding-left: 1rem;
     margin-top: -5px;
@@ -734,13 +760,6 @@ form textarea {
     padding: 0;
 }
 
-#application h3 {
-    background-color: var(--white);
-    padding-left: 1rem;
-    margin-top: -30px;
-    text-align: left;
-}
-
 /*-----footer----------*/
 
 footer {
@@ -754,6 +773,7 @@ footer {
 
 footer img {
     max-width: 100px;
+    padding-top: 1rem;
 }
 
 footer p {

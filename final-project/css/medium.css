@@ -27,6 +27,7 @@
     .socialbar img {
         max-width: 45%;
     }
+
     .socialbar button {
         margin-right: 15px;
     }
@@ -37,6 +38,9 @@
         max-width: 100%;
     }
 
+    .purpose {
+        max-width: 85%;
+    }
     .purpose h2 {
         padding-left: 1rem;
         margin-top: -2.25rem;
@@ -108,9 +112,17 @@
         text-align: center;
     }
 
+    .weather {
+        max-width: 85%;
+    }
+
+    .weather h2 {
+        width: 250px;
+    }
+    
     .weathersummary {
         max-width: 100%;    
-}
+    }
 
 /*--------tooele city-----------*/
 
@@ -156,9 +168,16 @@ figure img {
         max-width: 90%;
     }
 
+    #contactform h3 {
+        margin-top: -25px;
+        max-width: 170px;
+        background-color: white;
+    }
+
     #membershiplevels {
         max-width: 100%;
     }
+
     #levels {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -166,31 +185,32 @@ figure img {
         max-width: 100%;
     }
 
-    #application {
-        margin-right: auto;
-        margin-left: auto;
+    #membershiplevels {
+        margin-bottom: 20px;
     }
 
-    form {
-        max-width: 80%; 
-        margin-left: auto;
-        margin-right: auto;
+    #contactform {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    #level4 {
+        margin-bottom: 10px;
     }
 
 /*--------directory page------*/
 
-.filter-buttons {
-    display: flex;
-    margin-bottom: 20px;
-  }
+    .filter-buttons {
+        display: flex;
+        margin-bottom: 20px;
+    }
   
   .list-view-button,
   .grid-view-button {
     display:inline;
     color: var(--black);
-    border: 1px solid var(--white);
     padding: 5px;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
     border-radius: 3px;
   }
@@ -198,7 +218,7 @@ figure img {
   .list-view-button:hover,
   .grid-view-button:hover {
     background: lightgray;
-    color: var(white);
+    color: var(--black);
   }
   
   .list-view-button {
@@ -229,6 +249,10 @@ figure img {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .email {
+        font-size: 14pt;
     }
 
     .locationinfo {

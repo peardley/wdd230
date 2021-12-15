@@ -32,13 +32,13 @@
             <div class=socialbar>
                 <ul class="social-links">
                     <li class="facebook">
-                        <a href="https://facebook.com"><img src="images/facebookicon.png" alt="facebook icon"></a>
+                        <a href="https://facebook.com"><img src="images/facebookicon.jpg" alt="facebook icon"></a>
                     </li>
                     <li class="twitter"> 
-                        <a href="https://twitter.com"><img src="images/twittericon.png" alt="twitter icon"></a>
+                        <a href="https://twitter.com"><img src="images/twittericon.jpg" alt="twitter icon"></a>
                     </li>
                     <li class="instagram">
-                    <a href="https://instagram.com"><img src="images/instagramicon.png" alt="instagram icon"></a>
+                    <a href="https://instagram.com"><img src="images/instagramicon.jpg" alt="instagram icon"></a>
                     </li>
                 </ul>
                 <a href="join.html"><button class="joinbutton">Join Now</button></a>   
@@ -117,21 +117,21 @@
                         <input type="text" name="name" id="firstname" required><br>
                         <label for="lastname">*Last name:</label>
                         <input type="text" name="name" id="lastname" required><br>
-                        <label for="title">Title:
-                        <input type="text" name="name" id="title"></label><br>
-                        <label for="email">Email:
-                        <input type="email" id="email" name="email" placeholder="example@email.com"></label><br>
-                        <label for="businessname">*Business name:
-                        <input type="text" name="name" id="businessnme" required></label><br>
-                        <label for="phonenumber">Phone number:
-                        <input type="tel" id="phonenumber" name="phonenumber" placeholder="999-999-9999"></label><br>
-                        <label for="address">Business address:
-                        <input type="text" name="name" id="address"></label><br>
-                        <label for="zip">*Zip Code:
-                        <input type="number" id="zip" name="zip"></label><br>
+                        <label for="title">Title:</label>
+                        <input type="text" name="name" id="title"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com"><br>
+                        <label for="businessname">*Business name:</label>
+                        <input type="text" name="name" id="businessnme" required><br>
+                        <label for="phonenumber">Phone number:</label>
+                        <input type="tel" id="phonenumber" name="phonenumber" placeholder="999-999-9999"><br>
+                        <label for="address">Business address:</label>
+                        <input type="text" name="name" id="address"><br>
+                        <label for="zip">*Zip Code:</label>
+                        <input type="number" id="zip" name="zip"><br>
                         <label for="url">Business Website</label>
-                        <input type="url" name="url" id="url" placeholder="www.example.com" pattern="www.*" size="30" required><br>
-                        <label for="description">Business Description:
+                        <input type="url" name="url" id="url" placeholder="https://example.com"  required><br>
+                        <label for="description">Business Description:</label>
                         <textarea id="comments" name="comments"></textarea><br>
                         <label for="level">Choose a membership level</label>
                         <input list="level-list" id="level" name="level" />
@@ -148,25 +148,26 @@
             </div> 
         </div>        
    </main>
-    <footer>
-        <div class="contactinfo">
-            <div class="footerlogo">
-                <picture><img src="images/logo7.png"></picture>
-            </div>
-            <div class=address>
-                <p>Tooele Chamber of Commerce<br>
-                154 South Main Street<br>
-                Tooele, UT 84074<br>
-            </div>
-            <div class="contact">
-                <p>&#9742; (435)882-0690<br>
-                &#128231;chamber@tooelechamber.com</p>
-            </div>
+   <footer>
+    <div class="footercontactinfo">
+        <div class="footerlogo">
+            <picture><img src="images/logo7.png"></picture>
         </div>
-        <div class="bottomfooter">
-            &copy;<span id="copyrightyear"></span> Tooele Chamber of Commerce | Attributions | Last modified: <span id="modify"></span>
+        <div class="address">
+            <p>Tooele Chamber of Commerce</p>
+            <p>154 South Main Street</p>
+            <p>Tooele, UT 84074</p>
         </div>
-    </footer>   
+        <div class="contact">
+            <p>&#9742; (435)882-0690</p>
+            <p>&#128231;chamber@tooelechamber.com</p>
+        </div>
+    </div>
+    <div class="bottomfooter">
+        <p>&copy;<span id="copyrightyear"></span> Tooele Chamber of Commerce |
+             <a href="attributions.html">Attributions</a> | Last modified: <span id="modify"></span></p>
+    </div>
+</footer>   
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
     <script>
         WebFont.load({google: {families: ['Montserrat', 'Barlow Condensed']}});
