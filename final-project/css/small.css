@@ -16,7 +16,7 @@ font-family: 'Montserrat', sans-serif;*/
     --yellow: #db9c3b;
     --white: #ffffff;
     --lightgrey: #EEF1EF;
-    --darkgrey: #78777e;
+    --darkgrey: #5d5d5f;
   }
 
 
@@ -156,6 +156,10 @@ header div.logo picture {
 
 button a {
     text-decoration: none;
+}
+
+button a:hover {
+    color: var(--white);      
 }
 
 .social-links {
@@ -635,7 +639,6 @@ form p {
 #level3 {
     background-color: var(--darkgrey);
     color: var(--white);
-    font-weight: bold;
     border-radius: 15px;
     padding: 1rem;
     max-width: 100%;
